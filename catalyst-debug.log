@@ -1,0 +1,904 @@
+[debug] [2024-03-26T14:45:42.364Z] : 
+[debug] [2024-03-26T14:45:42.366Z] : ----------------------------------------------------------------------
+[debug] [2024-03-26T14:45:42.366Z] : Command:      C:\Program Files\nodejs\node.exe C:\Users\user\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js serve
+[debug] [2024-03-26T14:45:42.367Z] : CLI Version:  1.17.4
+[debug] [2024-03-26T14:45:42.367Z] : Platform:     win32
+[debug] [2024-03-26T14:45:42.367Z] : Node Version: v20.10.0
+[debug] [2024-03-26T14:45:42.368Z] : Time:         Tue Mar 26 2024 20:15:42 GMT+0530 (India Standard Time)
+[debug] [2024-03-26T14:45:42.368Z] : ----------------------------------------------------------------------
+[debug] [2024-03-26T14:45:42.368Z] : 
+[debug] [2024-03-26T14:45:43.101Z] : > authorizing via signed-in user option
+[debug] [2024-03-26T14:45:43.103Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.functions.ALL","ZohoCatalyst.functions.EXECUTE","ZohoCatalyst.webapp.ALL","ZohoCatalyst.pdfshot.execute"]
+[debug] [2024-03-26T14:45:43.149Z] : > refreshing access token <
+[debug] [2024-03-26T14:45:43.153Z] : >>>> HTTP REQUEST : POST https://accounts.zoho.in/oauth/v2/token 
+<request body omitted>
+
+[debug] [2024-03-26T14:45:43.690Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Tue, 26 Mar 2024 14:45:42 GMT","content-type":"application/json;charset=UTF-8","content-length":"1913","connection":"keep-alive","set-cookie":["6e73717622=94da0c17b67b4320ada519c299270f95; Path=/","iamcsr=49ce3f7c-fbfb-46f1-890c-82aaf350c1d7;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=49ce3f7c-fbfb-46f1-890c-82aaf350c1d7;path=/;SameSite=Strict;Secure;priority=high"],"cache-control":"no-store","x-content-type-options":"nosniff","content-security-policy":"script-src 'self' 'unsafe-inline' 'unsafe-eval' https://*.zohocdn.com https://*.zoho.com https://*.zoho.eu https://*.zoho.com.cn https://*.zoho.com.au https://*.zoho.jp https://*.zoho.uk https://*.zoho.sa https://*.zohocloud.ca; report-uri https://logsapi.zoho.in/csplog?service=accounts;","pragma":"no-cache","x-frame-options":"SAMEORIGIN","vary":"accept-encoding","content-language":"en-US","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-03-26T14:45:43.714Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/5907000000005068 
+
+[debug] [2024-03-26T14:45:44.639Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Tue, 26 Mar 2024 14:45:43 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","set-cookie":["3a750b85f1=99131cfabfda186b4fe68a16fb8fedd6; Path=/","ZD_CSRF_TOKEN=4bac8444-fd0f-4844-9bb0-d2d6f31e406b;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=4bac8444-fd0f-4844-9bb0-d2d6f31e406b;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-03-26T14:45:44.644Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/5907000000005068/environment 
+
+[debug] [2024-03-26T14:45:44.798Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Tue, 26 Mar 2024 14:45:43 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","set-cookie":["3a750b85f1=7c58023b2365c117e2ff9b6feb09efa2; Path=/","ZD_CSRF_TOKEN=132cd66e-84b9-4e5b-9869-21ee20d355d3;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=132cd66e-84b9-4e5b-9869-21ee20d355d3;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-03-26T14:45:45.465Z] : Build folder already exists, starting cleanup
+[debug] [2024-03-26T14:45:45.514Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/5907000000005068/function 
+Query params: {"type":"basicio,event,cron,applogic,integration,browser_logic"}
+
+[debug] [2024-03-26T14:45:45.615Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Tue, 26 Mar 2024 14:45:44 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","set-cookie":["3a750b85f1=99131cfabfda186b4fe68a16fb8fedd6; Path=/","ZD_CSRF_TOKEN=5c99dbc8-44b7-4e98-aded-c8968cdda32b;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=5c99dbc8-44b7-4e98-aded-c8968cdda32b;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-03-26T14:45:45.621Z] : unknown eol undefined hence skipping check
+[warn] [2024-03-26T14:45:45.893Z] : ‼ skipping serve of AppSail service [undefined] since Config file not present
+[warn] [2024-03-26T14:45:45.893Z] : ‼ AppSail: No targets are ready to be served in local
+[info] [2024-03-26T14:45:46.130Z] : 
+[info] [2024-03-26T14:45:46.130Z] :  >>>>>>>>>>>>> AdvancedIO <<<<<<<<<<<< 
+[info] [2024-03-26T14:45:46.131Z] : i demo_function: http://localhost:3000/server/demo_function/
+[info] [2024-03-26T14:45:46.132Z] : 
+[info] [2024-03-26T14:45:46.132Z] : 
+[info] [2024-03-26T14:45:46.133Z] :  >>>>>>>>>>>>> Web Client <<<<<<<<<<<<
+[info] [2024-03-26T14:45:46.133Z] : i client[sampleApp]: http://localhost:3000/app/
+[info] [2024-03-26T14:45:46.134Z] : 
+[debug] [2024-03-26T16:01:25.465Z] : > refreshing access token <
+[debug] [2024-03-26T16:01:25.475Z] : >>>> HTTP REQUEST : POST https://accounts.zoho.in/oauth/v2/token 
+<request body omitted>
+
+[debug] [2024-03-26T16:01:26.436Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Tue, 26 Mar 2024 16:01:25 GMT","content-type":"application/json;charset=UTF-8","content-length":"1913","connection":"keep-alive","set-cookie":["6e73717622=94da0c17b67b4320ada519c299270f95; Path=/","iamcsr=3aee034d-b18a-4c9c-aeab-892489b5b996;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=3aee034d-b18a-4c9c-aeab-892489b5b996;path=/;SameSite=Strict;Secure;priority=high"],"cache-control":"no-store","x-content-type-options":"nosniff","content-security-policy":"script-src 'self' 'unsafe-inline' 'unsafe-eval' https://*.zohocdn.com https://*.zoho.com https://*.zoho.eu https://*.zoho.com.cn https://*.zoho.com.au https://*.zoho.jp https://*.zoho.uk https://*.zoho.sa https://*.zohocloud.ca; report-uri https://logsapi.zoho.in/csplog?service=accounts;","pragma":"no-cache","x-frame-options":"SAMEORIGIN","vary":"accept-encoding","content-language":"en-US","strict-transport-security":"max-age=63072000"}
+
+[info] [2024-03-26T16:49:30.733Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2024-03-26T16:49:58.988Z] : Change(s) is detected in index.html of the Web-Client.
+[debug] [2024-03-27T01:05:01.520Z] : 
+[debug] [2024-03-27T01:05:01.535Z] : ----------------------------------------------------------------------
+[debug] [2024-03-27T01:05:01.536Z] : Command:      C:\Program Files\nodejs\node.exe C:\Users\user\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js serve
+[debug] [2024-03-27T01:05:01.536Z] : CLI Version:  1.17.4
+[debug] [2024-03-27T01:05:01.538Z] : Platform:     win32
+[debug] [2024-03-27T01:05:01.538Z] : Node Version: v20.10.0
+[debug] [2024-03-27T01:05:01.539Z] : Time:         Wed Mar 27 2024 06:35:01 GMT+0530 (India Standard Time)
+[debug] [2024-03-27T01:05:01.539Z] : ----------------------------------------------------------------------
+[debug] [2024-03-27T01:05:01.540Z] : 
+[debug] [2024-03-27T01:05:03.595Z] : > authorizing via signed-in user option
+[debug] [2024-03-27T01:05:03.597Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.functions.ALL","ZohoCatalyst.functions.EXECUTE","ZohoCatalyst.webapp.ALL","ZohoCatalyst.pdfshot.execute"]
+[debug] [2024-03-27T01:05:03.634Z] : > refreshing access token <
+[debug] [2024-03-27T01:05:03.636Z] : >>>> HTTP REQUEST : POST https://accounts.zoho.in/oauth/v2/token 
+<request body omitted>
+
+[debug] [2024-03-27T01:05:05.269Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Wed, 27 Mar 2024 01:05:04 GMT","content-type":"application/json;charset=UTF-8","content-length":"1913","connection":"keep-alive","set-cookie":["6e73717622=4440853cd702ab2a51402c119608ee85; Path=/","iamcsr=bb8f8f43-588b-453a-b161-18db8106eb9b;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=bb8f8f43-588b-453a-b161-18db8106eb9b;path=/;SameSite=Strict;Secure;priority=high"],"cache-control":"no-store","x-content-type-options":"nosniff","content-security-policy":"script-src 'self' 'unsafe-inline' 'unsafe-eval' https://*.zohocdn.com https://*.zoho.com https://*.zoho.eu https://*.zoho.com.cn https://*.zoho.com.au https://*.zoho.jp https://*.zoho.uk https://*.zoho.sa https://*.zohocloud.ca; report-uri https://logsapi.zoho.in/csplog?service=accounts;","pragma":"no-cache","x-frame-options":"SAMEORIGIN","vary":"accept-encoding","content-language":"en-US","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-03-27T01:05:05.314Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/5907000000005068 
+
+[debug] [2024-03-27T01:05:06.739Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Wed, 27 Mar 2024 01:05:06 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","set-cookie":["3a750b85f1=99131cfabfda186b4fe68a16fb8fedd6; Path=/","ZD_CSRF_TOKEN=4bf9c953-2761-4e5a-a2f2-9707783dfdf1;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=4bf9c953-2761-4e5a-a2f2-9707783dfdf1;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-03-27T01:05:06.745Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/5907000000005068/environment 
+
+[debug] [2024-03-27T01:05:07.224Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Wed, 27 Mar 2024 01:05:07 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","set-cookie":["3a750b85f1=7c58023b2365c117e2ff9b6feb09efa2; Path=/","ZD_CSRF_TOKEN=b7e30e33-9c4e-49b7-bf17-e75b14510f9d;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=b7e30e33-9c4e-49b7-bf17-e75b14510f9d;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-03-27T01:05:07.937Z] : Build folder already exists, starting cleanup
+[debug] [2024-03-27T01:05:08.005Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/5907000000005068/function 
+Query params: {"type":"basicio,event,cron,applogic,integration,browser_logic"}
+
+[debug] [2024-03-27T01:05:08.346Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Wed, 27 Mar 2024 01:05:08 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","set-cookie":["3a750b85f1=99131cfabfda186b4fe68a16fb8fedd6; Path=/","ZD_CSRF_TOKEN=85f849d0-ce58-4d69-b6f4-a75eb35f0a55;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=85f849d0-ce58-4d69-b6f4-a75eb35f0a55;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-03-27T01:05:08.350Z] : unknown eol undefined hence skipping check
+[warn] [2024-03-27T01:05:08.822Z] : ‼ skipping serve of AppSail service [undefined] since Config file not present
+[warn] [2024-03-27T01:05:08.823Z] : ‼ AppSail: No targets are ready to be served in local
+[info] [2024-03-27T01:05:09.146Z] : 
+[info] [2024-03-27T01:05:09.147Z] :  >>>>>>>>>>>>> AdvancedIO <<<<<<<<<<<< 
+[info] [2024-03-27T01:05:09.151Z] : i demo_function: http://localhost:3000/server/demo_function/
+[info] [2024-03-27T01:05:09.152Z] : 
+[info] [2024-03-27T01:05:09.153Z] : 
+[info] [2024-03-27T01:05:09.154Z] :  >>>>>>>>>>>>> Web Client <<<<<<<<<<<<
+[info] [2024-03-27T01:05:09.155Z] : i client[sampleApp]: http://localhost:3000/app/
+[info] [2024-03-27T01:05:09.155Z] : 
+[info] [2024-03-27T01:18:26.237Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-27T01:18:40.766Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-27T01:18:49.550Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-27T01:18:50.114Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-27T01:18:50.372Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-27T01:18:50.571Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-27T01:19:14.389Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-27T01:23:15.281Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-27T01:29:46.463Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-27T01:30:05.164Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-27T01:30:32.378Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-27T01:30:38.388Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-27T01:30:54.410Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-27T01:31:11.402Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-27T01:31:58.562Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-27T01:32:44.878Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-27T01:33:00.296Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-27T01:33:14.144Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-27T01:33:16.532Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-27T01:33:17.849Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-27T01:34:16.969Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-27T01:34:37.552Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-27T01:34:55.063Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-27T01:35:20.354Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-27T01:35:29.163Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-27T01:36:10.076Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-27T01:36:41.930Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-27T01:38:21.088Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-27T01:40:13.514Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-27T01:40:20.835Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-27T01:40:33.318Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-27T01:40:52.993Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-27T01:41:01.457Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-27T01:41:21.091Z] : Change(s) is detected in main.css of the Web-Client.
+[debug] [2024-03-27T04:41:24.429Z] : 
+[debug] [2024-03-27T04:41:24.446Z] : ----------------------------------------------------------------------
+[debug] [2024-03-27T04:41:24.447Z] : Command:      C:\Program Files\nodejs\node.exe C:\Users\user\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js serve
+[debug] [2024-03-27T04:41:24.447Z] : CLI Version:  1.17.4
+[debug] [2024-03-27T04:41:24.447Z] : Platform:     win32
+[debug] [2024-03-27T04:41:24.447Z] : Node Version: v20.10.0
+[debug] [2024-03-27T04:41:24.448Z] : Time:         Wed Mar 27 2024 10:11:24 GMT+0530 (India Standard Time)
+[debug] [2024-03-27T04:41:24.448Z] : ----------------------------------------------------------------------
+[debug] [2024-03-27T04:41:24.448Z] : 
+[debug] [2024-03-27T04:41:25.632Z] : > authorizing via signed-in user option
+[debug] [2024-03-27T04:41:25.632Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.functions.ALL","ZohoCatalyst.functions.EXECUTE","ZohoCatalyst.webapp.ALL","ZohoCatalyst.pdfshot.execute"]
+[debug] [2024-03-27T04:41:25.650Z] : > refreshing access token <
+[debug] [2024-03-27T04:41:25.651Z] : >>>> HTTP REQUEST : POST https://accounts.zoho.in/oauth/v2/token 
+<request body omitted>
+
+[debug] [2024-03-27T04:41:26.011Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Wed, 27 Mar 2024 04:41:26 GMT","content-type":"application/json;charset=UTF-8","content-length":"1913","connection":"keep-alive","set-cookie":["6e73717622=4440853cd702ab2a51402c119608ee85; Path=/","iamcsr=f9be5326-fcd4-4c3f-8234-c794f5f9eb5d;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=f9be5326-fcd4-4c3f-8234-c794f5f9eb5d;path=/;SameSite=Strict;Secure;priority=high"],"cache-control":"no-store","x-content-type-options":"nosniff","content-security-policy":"script-src 'self' 'unsafe-inline' 'unsafe-eval' https://*.zohocdn.com https://*.zoho.com https://*.zoho.eu https://*.zoho.com.cn https://*.zoho.com.au https://*.zoho.jp https://*.zoho.uk https://*.zoho.sa https://*.zohocloud.ca; report-uri https://logsapi.zoho.in/csplog?service=accounts;","pragma":"no-cache","x-frame-options":"SAMEORIGIN","vary":"accept-encoding","content-language":"en-US","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-03-27T04:41:26.038Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/5907000000005068 
+
+[debug] [2024-03-27T04:41:26.359Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Wed, 27 Mar 2024 04:41:26 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","set-cookie":["3a750b85f1=7c58023b2365c117e2ff9b6feb09efa2; Path=/","ZD_CSRF_TOKEN=e785e3c7-32e9-4f1d-8756-93002f68f605;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=e785e3c7-32e9-4f1d-8756-93002f68f605;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-03-27T04:41:26.364Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/5907000000005068/environment 
+
+[debug] [2024-03-27T04:41:26.467Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Wed, 27 Mar 2024 04:41:26 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","set-cookie":["3a750b85f1=99131cfabfda186b4fe68a16fb8fedd6; Path=/","ZD_CSRF_TOKEN=5ee74d83-e20c-494f-a2a5-2070384d0ae4;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=5ee74d83-e20c-494f-a2a5-2070384d0ae4;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-03-27T04:41:26.919Z] : Build folder already exists, starting cleanup
+[debug] [2024-03-27T04:41:26.960Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/5907000000005068/function 
+Query params: {"type":"basicio,event,cron,applogic,integration,browser_logic"}
+
+[debug] [2024-03-27T04:41:27.028Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Wed, 27 Mar 2024 04:41:27 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","set-cookie":["3a750b85f1=7c58023b2365c117e2ff9b6feb09efa2; Path=/","ZD_CSRF_TOKEN=0d2148f1-867d-456e-8e61-5d5770486799;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=0d2148f1-867d-456e-8e61-5d5770486799;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-03-27T04:41:27.032Z] : unknown eol undefined hence skipping check
+[warn] [2024-03-27T04:41:27.299Z] : ‼ skipping serve of AppSail service [undefined] since Config file not present
+[warn] [2024-03-27T04:41:27.300Z] : ‼ AppSail: No targets are ready to be served in local
+[info] [2024-03-27T04:41:27.522Z] : 
+[info] [2024-03-27T04:41:27.522Z] :  >>>>>>>>>>>>> AdvancedIO <<<<<<<<<<<< 
+[info] [2024-03-27T04:41:27.523Z] : i demo_function: http://localhost:3000/server/demo_function/
+[info] [2024-03-27T04:41:27.523Z] : 
+[info] [2024-03-27T04:41:27.523Z] : 
+[info] [2024-03-27T04:41:27.524Z] :  >>>>>>>>>>>>> Web Client <<<<<<<<<<<<
+[info] [2024-03-27T04:41:27.524Z] : i client[sampleApp]: http://localhost:3000/app/
+[info] [2024-03-27T04:41:27.524Z] : 
+[info] [2024-03-27T04:42:42.725Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2024-03-27T04:49:32.673Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2024-03-27T04:55:40.260Z] : 
+change of index.js in demo_function detected. Preparing your function, please wait...
+[info] [2024-03-27T04:55:40.562Z] : i AdvancedIO[demo_function]: ready!
+[info] [2024-03-27T04:55:40.563Z] : i AdvancedIO[demo_function]: http://localhost:3000/server/demo_function/
+[info] [2024-03-27T04:55:52.593Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2024-03-27T05:27:19.058Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2024-03-27T05:27:49.158Z] : 
+change of index.js in demo_function detected. Preparing your function, please wait...
+[info] [2024-03-27T05:27:49.655Z] : i AdvancedIO[demo_function]: ready!
+[info] [2024-03-27T05:27:49.656Z] : i AdvancedIO[demo_function]: http://localhost:3000/server/demo_function/
+[info] [2024-03-27T05:28:06.734Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2024-03-27T05:28:52.445Z] : 
+change of index.js in demo_function detected. Preparing your function, please wait...
+[info] [2024-03-27T05:28:52.839Z] : i AdvancedIO[demo_function]: ready!
+[info] [2024-03-27T05:28:52.840Z] : i AdvancedIO[demo_function]: http://localhost:3000/server/demo_function/
+[info] [2024-03-27T05:29:15.119Z] : 
+change of index.js in demo_function detected. Preparing your function, please wait...
+[info] [2024-03-27T05:29:15.443Z] : i AdvancedIO[demo_function]: ready!
+[info] [2024-03-27T05:29:15.444Z] : i AdvancedIO[demo_function]: http://localhost:3000/server/demo_function/
+[info] [2024-03-27T05:29:45.696Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2024-03-27T05:29:52.226Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2024-03-27T05:30:39.320Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2024-03-27T05:31:23.250Z] : 
+change of index.js in demo_function detected. Preparing your function, please wait...
+[info] [2024-03-27T05:31:23.647Z] : i AdvancedIO[demo_function]: ready!
+[info] [2024-03-27T05:31:23.648Z] : i AdvancedIO[demo_function]: http://localhost:3000/server/demo_function/
+[info] [2024-03-27T05:31:45.685Z] : 
+change of index.js in demo_function detected. Preparing your function, please wait...
+[info] [2024-03-27T05:31:46.018Z] : i AdvancedIO[demo_function]: ready!
+[info] [2024-03-27T05:31:46.018Z] : i AdvancedIO[demo_function]: http://localhost:3000/server/demo_function/
+[info] [2024-03-27T05:31:48.400Z] : 
+change of index.js in demo_function detected. Preparing your function, please wait...
+[info] [2024-03-27T05:31:48.833Z] : i AdvancedIO[demo_function]: ready!
+[info] [2024-03-27T05:31:48.833Z] : i AdvancedIO[demo_function]: http://localhost:3000/server/demo_function/
+[info] [2024-03-27T05:31:51.692Z] : 
+change of index.js in demo_function detected. Preparing your function, please wait...
+[info] [2024-03-27T05:31:52.235Z] : i AdvancedIO[demo_function]: ready!
+[info] [2024-03-27T05:31:52.235Z] : i AdvancedIO[demo_function]: http://localhost:3000/server/demo_function/
+[info] [2024-03-27T05:31:57.991Z] : 
+change of index.js in demo_function detected. Preparing your function, please wait...
+[info] [2024-03-27T05:31:58.354Z] : i AdvancedIO[demo_function]: ready!
+[info] [2024-03-27T05:31:58.355Z] : i AdvancedIO[demo_function]: http://localhost:3000/server/demo_function/
+[info] [2024-03-27T05:32:14.132Z] : 
+change of index.js in demo_function detected. Preparing your function, please wait...
+[info] [2024-03-27T05:32:14.506Z] : i AdvancedIO[demo_function]: ready!
+[info] [2024-03-27T05:32:14.507Z] : i AdvancedIO[demo_function]: http://localhost:3000/server/demo_function/
+[error] [2024-03-27T05:33:11.238Z] : × [404 - Resource not found]: /all
+[info] [2024-03-27T05:33:11.239Z] : 
+[debug] [2024-03-27T05:33:11.239Z] : Error: ENOENT: no such file or directory, stat 'C:\Users\user\ZohoCatalyst_crm8\Demo\client\all'
+[info] [2024-03-27T05:34:19.098Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2024-03-27T05:36:28.874Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2024-03-27T05:36:42.287Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-27T05:36:45.110Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2024-03-27T05:37:01.062Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2024-03-27T05:38:56.358Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2024-03-27T06:10:48.084Z] : Change(s) is detected in main.js of the Web-Client.
+[debug] [2024-03-27T06:10:56.250Z] : > refreshing access token <
+[debug] [2024-03-27T06:10:56.254Z] : >>>> HTTP REQUEST : POST https://accounts.zoho.in/oauth/v2/token 
+<request body omitted>
+
+[debug] [2024-03-27T06:10:56.574Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Wed, 27 Mar 2024 06:10:57 GMT","content-type":"application/json;charset=UTF-8","content-length":"1913","connection":"keep-alive","set-cookie":["6e73717622=94da0c17b67b4320ada519c299270f95; Path=/","iamcsr=51930cd8-735f-4a4b-90e1-7a1a0ce428b6;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=51930cd8-735f-4a4b-90e1-7a1a0ce428b6;path=/;SameSite=Strict;Secure;priority=high"],"cache-control":"no-store","x-content-type-options":"nosniff","content-security-policy":"script-src 'self' 'unsafe-inline' 'unsafe-eval' https://*.zohocdn.com https://*.zoho.com https://*.zoho.eu https://*.zoho.com.cn https://*.zoho.com.au https://*.zoho.jp https://*.zoho.uk https://*.zoho.sa https://*.zohocloud.ca; report-uri https://logsapi.zoho.in/csplog?service=accounts;","pragma":"no-cache","x-frame-options":"SAMEORIGIN","vary":"accept-encoding","content-language":"en-US","strict-transport-security":"max-age=63072000"}
+
+[info] [2024-03-27T06:13:51.808Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2024-03-27T06:14:38.626Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2024-03-27T06:15:18.831Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2024-03-27T06:17:10.072Z] : 
+change of index.js in demo_function detected. Preparing your function, please wait...
+[info] [2024-03-27T06:17:10.384Z] : i AdvancedIO[demo_function]: ready!
+[info] [2024-03-27T06:17:10.384Z] : i AdvancedIO[demo_function]: http://localhost:3000/server/demo_function/
+[info] [2024-03-27T06:18:08.503Z] : 
+change of index.js in demo_function detected. Preparing your function, please wait...
+[info] [2024-03-27T06:18:08.813Z] : i AdvancedIO[demo_function]: ready!
+[info] [2024-03-27T06:18:08.814Z] : i AdvancedIO[demo_function]: http://localhost:3000/server/demo_function/
+[info] [2024-03-27T06:19:43.704Z] : 
+change of index.js in demo_function detected. Preparing your function, please wait...
+[info] [2024-03-27T06:19:44.093Z] : i AdvancedIO[demo_function]: ready!
+[info] [2024-03-27T06:19:44.094Z] : i AdvancedIO[demo_function]: http://localhost:3000/server/demo_function/
+[info] [2024-03-27T06:19:46.614Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2024-03-27T06:20:08.507Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2024-03-27T06:20:11.221Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2024-03-27T06:22:12.223Z] : 
+change of index.js in demo_function detected. Preparing your function, please wait...
+[info] [2024-03-27T06:22:12.528Z] : i AdvancedIO[demo_function]: ready!
+[info] [2024-03-27T06:22:12.529Z] : i AdvancedIO[demo_function]: http://localhost:3000/server/demo_function/
+[info] [2024-03-27T06:22:48.592Z] : 
+change of index.js in demo_function detected. Preparing your function, please wait...
+[info] [2024-03-27T06:22:48.951Z] : i AdvancedIO[demo_function]: ready!
+[info] [2024-03-27T06:22:48.951Z] : i AdvancedIO[demo_function]: http://localhost:3000/server/demo_function/
+[info] [2024-03-27T06:22:53.224Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2024-03-27T06:27:59.312Z] : 
+change of index.js in demo_function detected. Preparing your function, please wait...
+[info] [2024-03-27T06:27:59.612Z] : i AdvancedIO[demo_function]: ready!
+[info] [2024-03-27T06:27:59.613Z] : i AdvancedIO[demo_function]: http://localhost:3000/server/demo_function/
+[info] [2024-03-27T06:28:08.572Z] : 
+change of index.js in demo_function detected. Preparing your function, please wait...
+[info] [2024-03-27T06:28:08.955Z] : i AdvancedIO[demo_function]: ready!
+[info] [2024-03-27T06:28:08.955Z] : i AdvancedIO[demo_function]: http://localhost:3000/server/demo_function/
+[info] [2024-03-27T06:29:09.491Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2024-03-27T06:29:47.818Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2024-03-27T06:30:13.471Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2024-03-27T06:30:37.771Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2024-03-27T06:30:41.888Z] : 
+change of index.js in demo_function detected. Preparing your function, please wait...
+[info] [2024-03-27T06:30:42.158Z] : i AdvancedIO[demo_function]: ready!
+[info] [2024-03-27T06:30:42.159Z] : i AdvancedIO[demo_function]: http://localhost:3000/server/demo_function/
+[info] [2024-03-27T06:30:54.045Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2024-03-27T06:31:06.648Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2024-03-27T07:13:00.698Z] : Change(s) is detected in main.js of the Web-Client.
+[debug] [2024-03-27T07:13:01.028Z] : > refreshing access token <
+[debug] [2024-03-27T07:13:01.032Z] : >>>> HTTP REQUEST : POST https://accounts.zoho.in/oauth/v2/token 
+<request body omitted>
+
+[debug] [2024-03-27T07:13:01.229Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Wed, 27 Mar 2024 07:13:01 GMT","content-type":"application/json;charset=UTF-8","content-length":"1913","connection":"keep-alive","set-cookie":["6e73717622=4440853cd702ab2a51402c119608ee85; Path=/","iamcsr=152f21f5-b192-4916-9136-b2e2a442b56b;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=152f21f5-b192-4916-9136-b2e2a442b56b;path=/;SameSite=Strict;Secure;priority=high"],"cache-control":"no-store","x-content-type-options":"nosniff","content-security-policy":"script-src 'self' 'unsafe-inline' 'unsafe-eval' https://*.zohocdn.com https://*.zoho.com https://*.zoho.eu https://*.zoho.com.cn https://*.zoho.com.au https://*.zoho.jp https://*.zoho.uk https://*.zoho.sa https://*.zohocloud.ca; report-uri https://logsapi.zoho.in/csplog?service=accounts;","pragma":"no-cache","x-frame-options":"SAMEORIGIN","vary":"accept-encoding","content-language":"en-US","strict-transport-security":"max-age=63072000"}
+
+[info] [2024-03-27T07:13:10.495Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2024-03-27T07:13:44.821Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2024-03-27T07:14:01.562Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2024-03-27T07:14:30.810Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2024-03-27T07:15:16.207Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2024-03-27T07:15:33.440Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2024-03-27T07:15:41.031Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2024-03-27T07:17:19.984Z] : Change(s) is detected in index.html of the Web-Client.
+[error] [2024-03-27T07:17:20.657Z] : × [404 - Resource not found]: /jquery-3.7.1.min.js
+[info] [2024-03-27T07:17:20.657Z] : 
+[debug] [2024-03-27T07:17:20.658Z] : Error: ENOENT: no such file or directory, stat 'C:\Users\user\ZohoCatalyst_crm8\Demo\client\jquery-3.7.1.min.js'
+[info] [2024-03-27T07:17:35.839Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2024-03-27T07:17:58.704Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2024-03-27T07:18:57.703Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2024-03-27T07:18:58.067Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2024-03-27T07:20:24.177Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2024-03-27T07:21:10.715Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2024-03-27T07:21:21.389Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2024-03-27T07:22:12.035Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-27T07:24:13.601Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2024-03-27T07:24:27.799Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2024-03-27T07:25:14.488Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2024-03-27T07:25:27.013Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2024-03-27T07:46:35.448Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2024-03-27T07:58:11.798Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2024-03-27T07:58:40.984Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2024-03-27T07:58:50.869Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2024-03-27T07:59:00.089Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2024-03-27T08:01:27.162Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-27T08:56:06.508Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2024-03-27T08:56:09.498Z] : Change(s) is detected in index.html of the Web-Client.
+[debug] [2024-03-27T08:56:13.549Z] : > refreshing access token <
+[debug] [2024-03-27T08:56:13.553Z] : >>>> HTTP REQUEST : POST https://accounts.zoho.in/oauth/v2/token 
+<request body omitted>
+
+[debug] [2024-03-27T08:56:13.770Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Wed, 27 Mar 2024 08:56:14 GMT","content-type":"application/json;charset=UTF-8","content-length":"1913","connection":"keep-alive","set-cookie":["6e73717622=94da0c17b67b4320ada519c299270f95; Path=/","iamcsr=dac57c83-3d8c-4814-84a9-4259608fe196;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=dac57c83-3d8c-4814-84a9-4259608fe196;path=/;SameSite=Strict;Secure;priority=high"],"cache-control":"no-store","x-content-type-options":"nosniff","content-security-policy":"script-src 'self' 'unsafe-inline' 'unsafe-eval' https://*.zohocdn.com https://*.zoho.com https://*.zoho.eu https://*.zoho.com.cn https://*.zoho.com.au https://*.zoho.jp https://*.zoho.uk https://*.zoho.sa https://*.zohocloud.ca; report-uri https://logsapi.zoho.in/csplog?service=accounts;","pragma":"no-cache","x-frame-options":"SAMEORIGIN","vary":"accept-encoding","content-language":"en-US","strict-transport-security":"max-age=63072000"}
+
+[info] [2024-03-27T08:59:39.029Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2024-03-27T09:00:56.050Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-27T09:01:18.738Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-27T09:01:49.265Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-27T09:02:13.888Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-27T09:02:29.683Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-27T09:02:33.429Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-27T09:04:02.336Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-27T09:04:07.587Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2024-03-27T09:04:28.771Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-27T09:09:32.362Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-27T09:09:42.188Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-27T09:20:30.969Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-27T09:20:54.934Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-27T09:21:11.519Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-27T09:21:34.968Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-27T09:22:06.834Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-27T09:22:11.429Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-27T09:22:26.692Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-27T09:22:35.758Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-27T09:22:43.781Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-27T09:22:53.786Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-27T09:23:21.150Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-27T09:23:30.791Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-27T09:23:39.955Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-27T09:23:46.028Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-27T09:23:55.016Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-27T09:23:59.781Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-27T09:24:08.196Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-27T09:24:24.708Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-27T09:24:32.849Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-27T09:24:51.485Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-27T09:24:55.120Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-27T09:24:58.123Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-27T09:25:00.953Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-27T09:25:05.419Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-27T09:25:17.661Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-27T09:28:29.311Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-27T09:28:35.329Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-27T09:28:50.978Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-27T09:28:54.350Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-27T09:29:01.448Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-27T09:29:16.696Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-27T09:29:20.105Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-27T09:29:23.063Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-27T09:30:52.589Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-27T09:31:00.338Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-27T09:31:07.161Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-27T09:31:11.797Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-27T09:31:16.521Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-27T09:31:42.440Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-27T09:31:49.449Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-27T09:32:15.778Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2024-03-27T09:33:15.956Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-27T09:34:34.024Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-27T09:34:41.927Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-27T09:34:57.031Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-27T09:35:06.445Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-27T09:35:06.865Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-27T09:35:14.893Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-27T09:35:44.237Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-27T09:36:03.521Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-27T09:36:19.822Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-27T09:36:26.409Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-27T09:36:33.793Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-27T09:36:46.469Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-27T09:36:54.433Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-27T09:37:24.534Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-27T09:37:59.452Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-27T09:38:19.427Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-27T09:38:27.398Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-27T09:38:42.131Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-27T09:38:53.724Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-27T09:39:21.513Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-27T09:39:29.215Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-27T09:39:47.046Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-27T09:41:59.273Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2024-03-27T09:42:41.277Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-27T09:42:53.101Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-27T09:44:44.251Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-27T09:52:20.468Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2024-03-27T09:52:40.974Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2024-03-27T09:53:17.776Z] : 
+change of index.js in demo_function detected. Preparing your function, please wait...
+[info] [2024-03-27T09:53:18.199Z] : i AdvancedIO[demo_function]: ready!
+[info] [2024-03-27T09:53:18.200Z] : i AdvancedIO[demo_function]: http://localhost:3000/server/demo_function/
+[info] [2024-03-27T09:53:40.796Z] : 
+change of index.js in demo_function detected. Preparing your function, please wait...
+[info] [2024-03-27T09:53:41.083Z] : i AdvancedIO[demo_function]: ready!
+[info] [2024-03-27T09:53:41.084Z] : i AdvancedIO[demo_function]: http://localhost:3000/server/demo_function/
+[info] [2024-03-27T09:53:43.289Z] : Change(s) is detected in main.js of the Web-Client.
+[debug] [2024-03-27T09:56:15.912Z] : > refreshing access token <
+[debug] [2024-03-27T09:56:15.915Z] : >>>> HTTP REQUEST : POST https://accounts.zoho.in/oauth/v2/token 
+<request body omitted>
+
+[debug] [2024-03-27T09:56:16.143Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Wed, 27 Mar 2024 09:56:16 GMT","content-type":"application/json;charset=UTF-8","content-length":"1913","connection":"keep-alive","set-cookie":["6e73717622=3bcf233c3836eb7934b6f3edc257f951; Path=/","iamcsr=879f7d29-2160-491f-bc62-8b1e922914c7;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=879f7d29-2160-491f-bc62-8b1e922914c7;path=/;SameSite=Strict;Secure;priority=high"],"cache-control":"no-store","x-content-type-options":"nosniff","content-security-policy":"script-src 'self' 'unsafe-inline' 'unsafe-eval' https://*.zohocdn.com https://*.zoho.com https://*.zoho.eu https://*.zoho.com.cn https://*.zoho.com.au https://*.zoho.jp https://*.zoho.uk https://*.zoho.sa https://*.zohocloud.ca; report-uri https://logsapi.zoho.in/csplog?service=accounts;","pragma":"no-cache","x-frame-options":"SAMEORIGIN","vary":"accept-encoding","content-language":"en-US","strict-transport-security":"max-age=63072000"}
+
+[info] [2024-03-27T10:16:56.925Z] : 
+change of index.js in demo_function detected. Preparing your function, please wait...
+[info] [2024-03-27T10:16:57.216Z] : i AdvancedIO[demo_function]: ready!
+[info] [2024-03-27T10:16:57.217Z] : i AdvancedIO[demo_function]: http://localhost:3000/server/demo_function/
+[info] [2024-03-27T10:17:08.833Z] : 
+change of index.js in demo_function detected. Preparing your function, please wait...
+[info] [2024-03-27T10:17:09.205Z] : i AdvancedIO[demo_function]: ready!
+[info] [2024-03-27T10:17:09.206Z] : i AdvancedIO[demo_function]: http://localhost:3000/server/demo_function/
+[info] [2024-03-27T10:20:55.743Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2024-03-27T10:21:24.373Z] : 
+change of index.js in demo_function detected. Preparing your function, please wait...
+[info] [2024-03-27T10:21:24.736Z] : i AdvancedIO[demo_function]: ready!
+[info] [2024-03-27T10:21:24.737Z] : i AdvancedIO[demo_function]: http://localhost:3000/server/demo_function/
+[info] [2024-03-27T10:24:39.084Z] : 
+change of index.js in demo_function detected. Preparing your function, please wait...
+[info] [2024-03-27T10:24:39.414Z] : i AdvancedIO[demo_function]: ready!
+[info] [2024-03-27T10:24:39.415Z] : i AdvancedIO[demo_function]: http://localhost:3000/server/demo_function/
+[info] [2024-03-27T10:24:51.309Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2024-03-27T10:41:49.872Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2024-03-27T10:41:58.439Z] : 
+change of index.js in demo_function detected. Preparing your function, please wait...
+[info] [2024-03-27T10:41:58.701Z] : i AdvancedIO[demo_function]: ready!
+[info] [2024-03-27T10:41:58.702Z] : i AdvancedIO[demo_function]: http://localhost:3000/server/demo_function/
+[info] [2024-03-27T10:42:03.445Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2024-03-27T10:42:12.816Z] : 
+change of index.js in demo_function detected. Preparing your function, please wait...
+[info] [2024-03-27T10:42:13.099Z] : i AdvancedIO[demo_function]: ready!
+[info] [2024-03-27T10:42:13.099Z] : i AdvancedIO[demo_function]: http://localhost:3000/server/demo_function/
+[info] [2024-03-27T10:42:23.604Z] : 
+change of index.js in demo_function detected. Preparing your function, please wait...
+[info] [2024-03-27T10:42:23.875Z] : i AdvancedIO[demo_function]: ready!
+[info] [2024-03-27T10:42:23.876Z] : i AdvancedIO[demo_function]: http://localhost:3000/server/demo_function/
+[info] [2024-03-27T10:42:54.380Z] : 
+change of index.js in demo_function detected. Preparing your function, please wait...
+[info] [2024-03-27T10:42:54.693Z] : i AdvancedIO[demo_function]: ready!
+[info] [2024-03-27T10:42:54.694Z] : i AdvancedIO[demo_function]: http://localhost:3000/server/demo_function/
+[info] [2024-03-27T10:43:11.285Z] : 
+change of index.js in demo_function detected. Preparing your function, please wait...
+[info] [2024-03-27T10:43:11.559Z] : i AdvancedIO[demo_function]: ready!
+[info] [2024-03-27T10:43:11.560Z] : i AdvancedIO[demo_function]: http://localhost:3000/server/demo_function/
+[info] [2024-03-27T11:01:58.598Z] : Change(s) is detected in main.js of the Web-Client.
+[debug] [2024-03-27T11:01:58.929Z] : > refreshing access token <
+[debug] [2024-03-27T11:01:58.932Z] : >>>> HTTP REQUEST : POST https://accounts.zoho.in/oauth/v2/token 
+<request body omitted>
+
+[debug] [2024-03-27T11:01:59.267Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Wed, 27 Mar 2024 11:01:59 GMT","content-type":"application/json;charset=UTF-8","content-length":"1913","connection":"keep-alive","set-cookie":["6e73717622=94da0c17b67b4320ada519c299270f95; Path=/","iamcsr=a8e291d5-18e3-46a5-9c9e-8f3ce9225082;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=a8e291d5-18e3-46a5-9c9e-8f3ce9225082;path=/;SameSite=Strict;Secure;priority=high"],"cache-control":"no-store","x-content-type-options":"nosniff","content-security-policy":"script-src 'self' 'unsafe-inline' 'unsafe-eval' https://*.zohocdn.com https://*.zoho.com https://*.zoho.eu https://*.zoho.com.cn https://*.zoho.com.au https://*.zoho.jp https://*.zoho.uk https://*.zoho.sa https://*.zohocloud.ca; report-uri https://logsapi.zoho.in/csplog?service=accounts;","pragma":"no-cache","x-frame-options":"SAMEORIGIN","vary":"accept-encoding","content-language":"en-US","strict-transport-security":"max-age=63072000"}
+
+[info] [2024-03-27T11:02:26.087Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2024-03-27T11:02:51.771Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2024-03-27T11:03:27.804Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2024-03-27T11:03:48.532Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2024-03-27T11:08:24.441Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2024-03-27T11:10:50.411Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2024-03-27T11:10:59.341Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2024-03-27T11:14:00.957Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2024-03-27T11:19:36.340Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2024-03-27T11:23:31.653Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2024-03-27T11:23:39.818Z] : 
+change of index.js in demo_function detected. Preparing your function, please wait...
+[info] [2024-03-27T11:23:40.118Z] : i AdvancedIO[demo_function]: ready!
+[info] [2024-03-27T11:23:40.118Z] : i AdvancedIO[demo_function]: http://localhost:3000/server/demo_function/
+[info] [2024-03-27T12:37:01.122Z] : Change(s) is detected in index.html of the Web-Client.
+[debug] [2024-03-27T14:37:13.154Z] : 
+[debug] [2024-03-27T14:37:13.166Z] : ----------------------------------------------------------------------
+[debug] [2024-03-27T14:37:13.167Z] : Command:      C:\Program Files\nodejs\node.exe C:\Users\user\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js serve
+[debug] [2024-03-27T14:37:13.167Z] : CLI Version:  1.17.4
+[debug] [2024-03-27T14:37:13.168Z] : Platform:     win32
+[debug] [2024-03-27T14:37:13.169Z] : Node Version: v20.10.0
+[debug] [2024-03-27T14:37:13.170Z] : Time:         Wed Mar 27 2024 20:07:13 GMT+0530 (India Standard Time)
+[debug] [2024-03-27T14:37:13.170Z] : ----------------------------------------------------------------------
+[debug] [2024-03-27T14:37:13.171Z] : 
+[debug] [2024-03-27T14:37:15.036Z] : > authorizing via signed-in user option
+[debug] [2024-03-27T14:37:15.036Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.functions.ALL","ZohoCatalyst.functions.EXECUTE","ZohoCatalyst.webapp.ALL","ZohoCatalyst.pdfshot.execute"]
+[debug] [2024-03-27T14:37:15.068Z] : > refreshing access token <
+[debug] [2024-03-27T14:37:15.071Z] : >>>> HTTP REQUEST : POST https://accounts.zoho.in/oauth/v2/token 
+<request body omitted>
+
+[debug] [2024-03-27T14:37:15.948Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Wed, 27 Mar 2024 14:37:15 GMT","content-type":"application/json;charset=UTF-8","content-length":"1913","connection":"keep-alive","set-cookie":["6e73717622=4440853cd702ab2a51402c119608ee85; Path=/","iamcsr=5bfbd924-edae-451c-b80e-f0c5b8a4a75a;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=5bfbd924-edae-451c-b80e-f0c5b8a4a75a;path=/;SameSite=Strict;Secure;priority=high"],"cache-control":"no-store","x-content-type-options":"nosniff","content-security-policy":"script-src 'self' 'unsafe-inline' 'unsafe-eval' https://*.zohocdn.com https://*.zoho.com https://*.zoho.eu https://*.zoho.com.cn https://*.zoho.com.au https://*.zoho.jp https://*.zoho.uk https://*.zoho.sa https://*.zohocloud.ca; report-uri https://logsapi.zoho.in/csplog?service=accounts;","pragma":"no-cache","x-frame-options":"SAMEORIGIN","vary":"accept-encoding","content-language":"en-US","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-03-27T14:37:15.955Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/5907000000005068 
+
+[debug] [2024-03-27T14:37:16.631Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Wed, 27 Mar 2024 14:37:16 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","set-cookie":["3a750b85f1=7c58023b2365c117e2ff9b6feb09efa2; Path=/","ZD_CSRF_TOKEN=8804eb7f-f0d1-4fdd-a3f7-12f0204999d0;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=8804eb7f-f0d1-4fdd-a3f7-12f0204999d0;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-03-27T14:37:16.634Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/5907000000005068/environment 
+
+[debug] [2024-03-27T14:37:16.775Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Wed, 27 Mar 2024 14:37:16 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","set-cookie":["3a750b85f1=99131cfabfda186b4fe68a16fb8fedd6; Path=/","ZD_CSRF_TOKEN=96ad304b-cddb-4548-b46d-222570077bce;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=96ad304b-cddb-4548-b46d-222570077bce;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-03-27T14:37:17.343Z] : Build folder already exists, starting cleanup
+[debug] [2024-03-27T14:37:17.398Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/5907000000005068/function 
+Query params: {"type":"basicio,event,cron,applogic,integration,browser_logic"}
+
+[debug] [2024-03-27T14:37:17.502Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Wed, 27 Mar 2024 14:37:16 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","set-cookie":["3a750b85f1=7c58023b2365c117e2ff9b6feb09efa2; Path=/","ZD_CSRF_TOKEN=d0064c0d-4dad-4077-9361-aa95ee106dd9;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=d0064c0d-4dad-4077-9361-aa95ee106dd9;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-03-27T14:37:17.511Z] : unknown eol undefined hence skipping check
+[warn] [2024-03-27T14:37:17.875Z] : ‼ skipping serve of AppSail service [undefined] since Config file not present
+[warn] [2024-03-27T14:37:17.876Z] : ‼ AppSail: No targets are ready to be served in local
+[info] [2024-03-27T14:37:18.178Z] : 
+[info] [2024-03-27T14:37:18.179Z] :  >>>>>>>>>>>>> AdvancedIO <<<<<<<<<<<< 
+[info] [2024-03-27T14:37:18.180Z] : i demo_function: http://localhost:3000/server/demo_function/
+[info] [2024-03-27T14:37:18.181Z] : 
+[info] [2024-03-27T14:37:18.181Z] : 
+[info] [2024-03-27T14:37:18.181Z] :  >>>>>>>>>>>>> Web Client <<<<<<<<<<<<
+[info] [2024-03-27T14:37:18.182Z] : i client[sampleApp]: http://localhost:3000/app/
+[info] [2024-03-27T14:37:18.182Z] : 
+[info] [2024-03-27T14:51:22.954Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2024-03-27T14:51:25.526Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2024-03-27T14:59:59.022Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-27T15:27:55.232Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-27T15:28:31.547Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-27T15:28:51.384Z] : Change(s) is detected in main.css of the Web-Client.
+[debug] [2024-03-27T15:53:17.893Z] : > refreshing access token <
+[debug] [2024-03-27T15:53:17.897Z] : >>>> HTTP REQUEST : POST https://accounts.zoho.in/oauth/v2/token 
+<request body omitted>
+
+[debug] [2024-03-27T15:53:18.746Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Wed, 27 Mar 2024 15:53:18 GMT","content-type":"application/json;charset=UTF-8","content-length":"1913","connection":"keep-alive","set-cookie":["6e73717622=94da0c17b67b4320ada519c299270f95; Path=/","iamcsr=50ae1a78-6b60-4df9-9bba-5ea94f294b18;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=50ae1a78-6b60-4df9-9bba-5ea94f294b18;path=/;SameSite=Strict;Secure;priority=high"],"cache-control":"no-store","x-content-type-options":"nosniff","content-security-policy":"script-src 'self' 'unsafe-inline' 'unsafe-eval' https://*.zohocdn.com https://*.zoho.com https://*.zoho.eu https://*.zoho.com.cn https://*.zoho.com.au https://*.zoho.jp https://*.zoho.uk https://*.zoho.sa https://*.zohocloud.ca; report-uri https://logsapi.zoho.in/csplog?service=accounts;","pragma":"no-cache","x-frame-options":"SAMEORIGIN","vary":"accept-encoding","content-language":"en-US","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-03-28T01:39:04.872Z] : 
+[debug] [2024-03-28T01:39:04.892Z] : ----------------------------------------------------------------------
+[debug] [2024-03-28T01:39:04.892Z] : Command:      C:\Program Files\nodejs\node.exe C:\Users\user\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js serve
+[debug] [2024-03-28T01:39:04.893Z] : CLI Version:  1.17.4
+[debug] [2024-03-28T01:39:04.894Z] : Platform:     win32
+[debug] [2024-03-28T01:39:04.894Z] : Node Version: v20.10.0
+[debug] [2024-03-28T01:39:04.895Z] : Time:         Thu Mar 28 2024 07:09:04 GMT+0530 (India Standard Time)
+[debug] [2024-03-28T01:39:04.896Z] : ----------------------------------------------------------------------
+[debug] [2024-03-28T01:39:04.896Z] : 
+[debug] [2024-03-28T01:39:07.053Z] : > authorizing via signed-in user option
+[debug] [2024-03-28T01:39:07.054Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.functions.ALL","ZohoCatalyst.functions.EXECUTE","ZohoCatalyst.webapp.ALL","ZohoCatalyst.pdfshot.execute"]
+[debug] [2024-03-28T01:39:07.085Z] : > refreshing access token <
+[debug] [2024-03-28T01:39:07.086Z] : >>>> HTTP REQUEST : POST https://accounts.zoho.in/oauth/v2/token 
+<request body omitted>
+
+[warn] [2024-03-28T01:39:07.201Z] : ‼ ENOTFOUND has occured while communicating remote server. Kindly be patient while the cli retries this request.
+[debug] [2024-03-28T01:39:07.202Z] : API Error while firing request : getaddrinfo ENOTFOUND accounts.zoho.in
+
+[debug] [2024-03-28T01:39:07.202Z] : >>>> RETRYING
+
+[warn] [2024-03-28T01:39:07.211Z] : ‼ ENOTFOUND has occured while communicating remote server. Kindly be patient while the cli retries this request.
+[debug] [2024-03-28T01:39:07.212Z] : API Error while firing request : getaddrinfo ENOTFOUND accounts.zoho.in
+
+[debug] [2024-03-28T01:39:07.212Z] : >>>> RETRYING
+
+[warn] [2024-03-28T01:39:07.217Z] : ‼ ENOTFOUND has occured while communicating remote server. Kindly be patient while the cli retries this request.
+[debug] [2024-03-28T01:39:07.217Z] : API Error while firing request : getaddrinfo ENOTFOUND accounts.zoho.in
+
+[debug] [2024-03-28T01:39:07.217Z] : >>>> RETRYING
+
+[warn] [2024-03-28T01:39:07.222Z] : ‼ ENOTFOUND has occured while communicating remote server. Kindly be patient while the cli retries this request.
+[error] [2024-03-28T01:39:07.233Z] : × API Error after retrying : getaddrinfo ENOTFOUND accounts.zoho.in
+[debug] [2024-03-28T01:39:07.233Z] : Error Stack: CatalystError: API Error after retrying : getaddrinfo ENOTFOUND accounts.zoho.in
+    at API.<anonymous> (C:\Users\user\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\internal\api.js:159:23)
+    at Generator.next (<anonymous>)
+    at C:\Users\user\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\internal\api.js:31:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\user\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\internal\api.js:27:12)
+    at API._retry (C:\Users\user\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\internal\api.js:157:16)
+    at API.<anonymous> (C:\Users\user\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\internal\api.js:202:56)
+    at Generator.next (<anonymous>)
+    at C:\Users\user\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\internal\api.js:31:71
+    at new Promise (<anonymous>)
+[debug] [2024-03-28T01:39:07.233Z] : Original Error: Error: getaddrinfo ENOTFOUND accounts.zoho.in
+    at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26)
+[debug] [2024-03-28T01:39:07.234Z] : Error Status: 500
+[info] [2024-03-28T01:39:07.234Z] : Kindly contact Catalyst support [support@zohocatalyst.com] if you need any further assistance
+[error] [2024-03-28T01:39:07.235Z] : × API Error: getaddrinfo ENOTFOUND accounts.zoho.in
+[debug] [2024-03-28T01:39:07.235Z] : Error Stack: CatalystError: API Error: getaddrinfo ENOTFOUND accounts.zoho.in
+    at API.<anonymous> (C:\Users\user\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\internal\api.js:211:32)
+    at Generator.throw (<anonymous>)
+    at rejected (C:\Users\user\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\internal\api.js:29:65)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[debug] [2024-03-28T01:39:07.235Z] : Original Error: Error: getaddrinfo ENOTFOUND accounts.zoho.in
+    at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26)
+[debug] [2024-03-28T01:39:07.235Z] : Error Status: 500
+[info] [2024-03-28T01:39:07.236Z] : Kindly contact Catalyst support [support@zohocatalyst.com] if you need any further assistance
+[error] [2024-03-28T01:39:07.236Z] : × API Error: getaddrinfo ENOTFOUND accounts.zoho.in
+[debug] [2024-03-28T01:39:07.237Z] : Error Stack: CatalystError: API Error: getaddrinfo ENOTFOUND accounts.zoho.in
+    at API.<anonymous> (C:\Users\user\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\internal\api.js:211:32)
+    at Generator.throw (<anonymous>)
+    at rejected (C:\Users\user\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\internal\api.js:29:65)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[debug] [2024-03-28T01:39:07.237Z] : Original Error: Error: getaddrinfo ENOTFOUND accounts.zoho.in
+    at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26)
+[debug] [2024-03-28T01:39:07.237Z] : Error Status: 500
+[info] [2024-03-28T01:39:07.237Z] : Kindly contact Catalyst support [support@zohocatalyst.com] if you need any further assistance
+[error] [2024-03-28T01:39:07.245Z] : × Error when refreshing the access token
+[debug] [2024-03-28T01:39:07.245Z] : Error Stack: CatalystError: Error when refreshing the access token
+    at C:\Users\user\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\internal\credential.js:139:23
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[debug] [2024-03-28T01:39:07.245Z] : Original Error: CatalystError: API Error after retrying : getaddrinfo ENOTFOUND accounts.zoho.in
+    at API.<anonymous> (C:\Users\user\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\internal\api.js:159:23)
+    at Generator.next (<anonymous>)
+    at C:\Users\user\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\internal\api.js:31:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\user\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\internal\api.js:27:12)
+    at API._retry (C:\Users\user\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\internal\api.js:157:16)
+    at API.<anonymous> (C:\Users\user\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\internal\api.js:202:56)
+    at Generator.next (<anonymous>)
+    at C:\Users\user\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\internal\api.js:31:71
+    at new Promise (<anonymous>)
+[debug] [2024-03-28T01:39:07.245Z] : Error Status: 500
+[info] [2024-03-28T01:39:07.246Z] : Kindly contact Catalyst support [support@zohocatalyst.com] if you need any further assistance
+[debug] [2024-03-28T01:39:07.247Z] : EXEC ENDED with event: Error (Unexpected), message: Error when refreshing the access token
+[debug] [2024-03-28T01:39:07.247Z] : TOTAL DURATION OF COMMAND EXEC : 213
+[debug] [2024-03-28T01:39:07.248Z] : Unable to initialise the log API
+[debug] [2024-03-28T01:44:20.095Z] : 
+[debug] [2024-03-28T01:44:20.096Z] : ----------------------------------------------------------------------
+[debug] [2024-03-28T01:44:20.096Z] : Command:      C:\Program Files\nodejs\node.exe C:\Users\user\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js serve
+[debug] [2024-03-28T01:44:20.097Z] : CLI Version:  1.17.4
+[debug] [2024-03-28T01:44:20.097Z] : Platform:     win32
+[debug] [2024-03-28T01:44:20.097Z] : Node Version: v20.10.0
+[debug] [2024-03-28T01:44:20.097Z] : Time:         Thu Mar 28 2024 07:14:20 GMT+0530 (India Standard Time)
+[debug] [2024-03-28T01:44:20.098Z] : ----------------------------------------------------------------------
+[debug] [2024-03-28T01:44:20.098Z] : 
+[debug] [2024-03-28T01:44:20.717Z] : > authorizing via signed-in user option
+[debug] [2024-03-28T01:44:20.717Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.functions.ALL","ZohoCatalyst.functions.EXECUTE","ZohoCatalyst.webapp.ALL","ZohoCatalyst.pdfshot.execute"]
+[debug] [2024-03-28T01:44:20.728Z] : > refreshing access token <
+[debug] [2024-03-28T01:44:20.730Z] : >>>> HTTP REQUEST : POST https://accounts.zoho.in/oauth/v2/token 
+<request body omitted>
+
+[warn] [2024-03-28T01:44:20.783Z] : ‼ ENOTFOUND has occured while communicating remote server. Kindly be patient while the cli retries this request.
+[debug] [2024-03-28T01:44:20.783Z] : API Error while firing request : getaddrinfo ENOTFOUND accounts.zoho.in
+
+[debug] [2024-03-28T01:44:20.783Z] : >>>> RETRYING
+
+[warn] [2024-03-28T01:44:20.787Z] : ‼ ENOTFOUND has occured while communicating remote server. Kindly be patient while the cli retries this request.
+[debug] [2024-03-28T01:44:20.787Z] : API Error while firing request : getaddrinfo ENOTFOUND accounts.zoho.in
+
+[debug] [2024-03-28T01:44:20.787Z] : >>>> RETRYING
+
+[warn] [2024-03-28T01:44:20.789Z] : ‼ ENOTFOUND has occured while communicating remote server. Kindly be patient while the cli retries this request.
+[debug] [2024-03-28T01:44:20.790Z] : API Error while firing request : getaddrinfo ENOTFOUND accounts.zoho.in
+
+[debug] [2024-03-28T01:44:20.790Z] : >>>> RETRYING
+
+[warn] [2024-03-28T01:44:20.792Z] : ‼ ENOTFOUND has occured while communicating remote server. Kindly be patient while the cli retries this request.
+[error] [2024-03-28T01:44:20.795Z] : × API Error after retrying : getaddrinfo ENOTFOUND accounts.zoho.in
+[debug] [2024-03-28T01:44:20.795Z] : Error Stack: CatalystError: API Error after retrying : getaddrinfo ENOTFOUND accounts.zoho.in
+    at API.<anonymous> (C:\Users\user\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\internal\api.js:159:23)
+    at Generator.next (<anonymous>)
+    at C:\Users\user\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\internal\api.js:31:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\user\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\internal\api.js:27:12)
+    at API._retry (C:\Users\user\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\internal\api.js:157:16)
+    at API.<anonymous> (C:\Users\user\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\internal\api.js:202:56)
+    at Generator.next (<anonymous>)
+    at C:\Users\user\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\internal\api.js:31:71
+    at new Promise (<anonymous>)
+[debug] [2024-03-28T01:44:20.795Z] : Original Error: Error: getaddrinfo ENOTFOUND accounts.zoho.in
+    at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26)
+[debug] [2024-03-28T01:44:20.795Z] : Error Status: 500
+[info] [2024-03-28T01:44:20.796Z] : Kindly contact Catalyst support [support@zohocatalyst.com] if you need any further assistance
+[error] [2024-03-28T01:44:20.796Z] : × API Error: getaddrinfo ENOTFOUND accounts.zoho.in
+[debug] [2024-03-28T01:44:20.796Z] : Error Stack: CatalystError: API Error: getaddrinfo ENOTFOUND accounts.zoho.in
+    at API.<anonymous> (C:\Users\user\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\internal\api.js:211:32)
+    at Generator.throw (<anonymous>)
+    at rejected (C:\Users\user\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\internal\api.js:29:65)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[debug] [2024-03-28T01:44:20.796Z] : Original Error: Error: getaddrinfo ENOTFOUND accounts.zoho.in
+    at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26)
+[debug] [2024-03-28T01:44:20.796Z] : Error Status: 500
+[info] [2024-03-28T01:44:20.796Z] : Kindly contact Catalyst support [support@zohocatalyst.com] if you need any further assistance
+[error] [2024-03-28T01:44:20.797Z] : × API Error: getaddrinfo ENOTFOUND accounts.zoho.in
+[debug] [2024-03-28T01:44:20.797Z] : Error Stack: CatalystError: API Error: getaddrinfo ENOTFOUND accounts.zoho.in
+    at API.<anonymous> (C:\Users\user\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\internal\api.js:211:32)
+    at Generator.throw (<anonymous>)
+    at rejected (C:\Users\user\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\internal\api.js:29:65)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[debug] [2024-03-28T01:44:20.797Z] : Original Error: Error: getaddrinfo ENOTFOUND accounts.zoho.in
+    at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:118:26)
+[debug] [2024-03-28T01:44:20.797Z] : Error Status: 500
+[info] [2024-03-28T01:44:20.797Z] : Kindly contact Catalyst support [support@zohocatalyst.com] if you need any further assistance
+[error] [2024-03-28T01:44:20.800Z] : × Error when refreshing the access token
+[debug] [2024-03-28T01:44:20.800Z] : Error Stack: CatalystError: Error when refreshing the access token
+    at C:\Users\user\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\internal\credential.js:139:23
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[debug] [2024-03-28T01:44:20.800Z] : Original Error: CatalystError: API Error after retrying : getaddrinfo ENOTFOUND accounts.zoho.in
+    at API.<anonymous> (C:\Users\user\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\internal\api.js:159:23)
+    at Generator.next (<anonymous>)
+    at C:\Users\user\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\internal\api.js:31:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\user\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\internal\api.js:27:12)
+    at API._retry (C:\Users\user\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\internal\api.js:157:16)
+    at API.<anonymous> (C:\Users\user\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\internal\api.js:202:56)
+    at Generator.next (<anonymous>)
+    at C:\Users\user\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\internal\api.js:31:71
+    at new Promise (<anonymous>)
+[debug] [2024-03-28T01:44:20.800Z] : Error Status: 500
+[info] [2024-03-28T01:44:20.801Z] : Kindly contact Catalyst support [support@zohocatalyst.com] if you need any further assistance
+[debug] [2024-03-28T01:44:20.801Z] : EXEC ENDED with event: Error (Unexpected), message: Error when refreshing the access token
+[debug] [2024-03-28T01:44:20.801Z] : TOTAL DURATION OF COMMAND EXEC : 87
+[debug] [2024-03-28T01:44:20.802Z] : Unable to initialise the log API
+[debug] [2024-03-28T01:44:40.502Z] : 
+[debug] [2024-03-28T01:44:40.503Z] : ----------------------------------------------------------------------
+[debug] [2024-03-28T01:44:40.503Z] : Command:      C:\Program Files\nodejs\node.exe C:\Users\user\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js serve
+[debug] [2024-03-28T01:44:40.504Z] : CLI Version:  1.17.4
+[debug] [2024-03-28T01:44:40.504Z] : Platform:     win32
+[debug] [2024-03-28T01:44:40.504Z] : Node Version: v20.10.0
+[debug] [2024-03-28T01:44:40.504Z] : Time:         Thu Mar 28 2024 07:14:40 GMT+0530 (India Standard Time)
+[debug] [2024-03-28T01:44:40.505Z] : ----------------------------------------------------------------------
+[debug] [2024-03-28T01:44:40.505Z] : 
+[debug] [2024-03-28T01:44:41.158Z] : > authorizing via signed-in user option
+[debug] [2024-03-28T01:44:41.158Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.functions.ALL","ZohoCatalyst.functions.EXECUTE","ZohoCatalyst.webapp.ALL","ZohoCatalyst.pdfshot.execute"]
+[debug] [2024-03-28T01:44:41.169Z] : > refreshing access token <
+[debug] [2024-03-28T01:44:41.170Z] : >>>> HTTP REQUEST : POST https://accounts.zoho.in/oauth/v2/token 
+<request body omitted>
+
+[debug] [2024-03-28T01:44:42.187Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Thu, 28 Mar 2024 01:44:41 GMT","content-type":"application/json;charset=UTF-8","content-length":"1913","connection":"keep-alive","set-cookie":["6e73717622=94da0c17b67b4320ada519c299270f95; Path=/","iamcsr=70ed03c3-1837-46d3-8d51-a3b6800e47a9;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=70ed03c3-1837-46d3-8d51-a3b6800e47a9;path=/;SameSite=Strict;Secure;priority=high"],"cache-control":"no-store","x-content-type-options":"nosniff","content-security-policy":"script-src 'self' 'unsafe-inline' 'unsafe-eval' https://*.zohocdn.com https://*.zoho.com https://*.zoho.eu https://*.zoho.com.cn https://*.zoho.com.au https://*.zoho.jp https://*.zoho.uk https://*.zoho.sa https://*.zohocloud.ca; report-uri https://logsapi.zoho.in/csplog?service=accounts;","pragma":"no-cache","x-frame-options":"SAMEORIGIN","vary":"accept-encoding","content-language":"en-US","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-03-28T01:44:42.209Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/5907000000005068 
+
+[debug] [2024-03-28T01:44:43.441Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Thu, 28 Mar 2024 01:44:42 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","set-cookie":["3a750b85f1=99131cfabfda186b4fe68a16fb8fedd6; Path=/","ZD_CSRF_TOKEN=76e60ad2-eab3-47b9-8092-88b7964f43de;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=76e60ad2-eab3-47b9-8092-88b7964f43de;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-03-28T01:44:43.444Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/5907000000005068/environment 
+
+[debug] [2024-03-28T01:44:43.553Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Thu, 28 Mar 2024 01:44:42 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","set-cookie":["3a750b85f1=7c58023b2365c117e2ff9b6feb09efa2; Path=/","ZD_CSRF_TOKEN=b5b1fd82-c337-4a23-b8fe-67dcee361366;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=b5b1fd82-c337-4a23-b8fe-67dcee361366;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-03-28T01:44:44.047Z] : Build folder already exists, starting cleanup
+[debug] [2024-03-28T01:44:44.099Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/5907000000005068/function 
+Query params: {"type":"basicio,event,cron,applogic,integration,browser_logic"}
+
+[debug] [2024-03-28T01:44:44.212Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Thu, 28 Mar 2024 01:44:43 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","set-cookie":["3a750b85f1=99131cfabfda186b4fe68a16fb8fedd6; Path=/","ZD_CSRF_TOKEN=e095c2a5-b92a-4ae8-8c35-bb45020cd243;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=e095c2a5-b92a-4ae8-8c35-bb45020cd243;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-03-28T01:44:44.215Z] : unknown eol undefined hence skipping check
+[warn] [2024-03-28T01:44:44.489Z] : ‼ skipping serve of AppSail service [undefined] since Config file not present
+[warn] [2024-03-28T01:44:44.490Z] : ‼ AppSail: No targets are ready to be served in local
+[info] [2024-03-28T01:44:44.755Z] : 
+[info] [2024-03-28T01:44:44.755Z] :  >>>>>>>>>>>>> AdvancedIO <<<<<<<<<<<< 
+[info] [2024-03-28T01:44:44.757Z] : i demo_function: http://localhost:3000/server/demo_function/
+[info] [2024-03-28T01:44:44.757Z] : 
+[info] [2024-03-28T01:44:44.758Z] : 
+[info] [2024-03-28T01:44:44.758Z] :  >>>>>>>>>>>>> Web Client <<<<<<<<<<<<
+[info] [2024-03-28T01:44:44.759Z] : i client[sampleApp]: http://localhost:3000/app/
+[info] [2024-03-28T01:44:44.759Z] : 
+[error] [2024-03-28T01:45:07.253Z] : × [404 - Resource not found]: /empList
+[info] [2024-03-28T01:45:07.253Z] : 
+[debug] [2024-03-28T01:45:07.253Z] : Error: ENOENT: no such file or directory, stat 'C:\Users\user\ZohoCatalyst_crm8\Demo\client\empList'
+[debug] [2024-03-28T04:43:21.952Z] : 
+[debug] [2024-03-28T04:43:21.955Z] : ----------------------------------------------------------------------
+[debug] [2024-03-28T04:43:21.956Z] : Command:      C:\Program Files\nodejs\node.exe C:\Users\user\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js serve
+[debug] [2024-03-28T04:43:21.956Z] : CLI Version:  1.17.4
+[debug] [2024-03-28T04:43:21.957Z] : Platform:     win32
+[debug] [2024-03-28T04:43:21.958Z] : Node Version: v20.10.0
+[debug] [2024-03-28T04:43:21.958Z] : Time:         Thu Mar 28 2024 10:13:21 GMT+0530 (India Standard Time)
+[debug] [2024-03-28T04:43:21.958Z] : ----------------------------------------------------------------------
+[debug] [2024-03-28T04:43:21.959Z] : 
+[debug] [2024-03-28T04:43:23.995Z] : > authorizing via signed-in user option
+[debug] [2024-03-28T04:43:23.995Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.functions.ALL","ZohoCatalyst.functions.EXECUTE","ZohoCatalyst.webapp.ALL","ZohoCatalyst.pdfshot.execute"]
+[debug] [2024-03-28T04:43:24.028Z] : > refreshing access token <
+[debug] [2024-03-28T04:43:24.031Z] : >>>> HTTP REQUEST : POST https://accounts.zoho.in/oauth/v2/token 
+<request body omitted>
+
+[debug] [2024-03-28T04:43:24.505Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Thu, 28 Mar 2024 04:43:24 GMT","content-type":"application/json;charset=UTF-8","content-length":"1913","connection":"keep-alive","set-cookie":["6e73717622=94da0c17b67b4320ada519c299270f95; Path=/","iamcsr=48d6afcc-7594-4063-97bd-ccdf5897426a;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=48d6afcc-7594-4063-97bd-ccdf5897426a;path=/;SameSite=Strict;Secure;priority=high"],"cache-control":"no-store","x-content-type-options":"nosniff","content-security-policy":"script-src 'self' 'unsafe-inline' 'unsafe-eval' https://*.zohocdn.com https://*.zoho.com https://*.zoho.eu https://*.zoho.com.cn https://*.zoho.com.au https://*.zoho.jp https://*.zoho.uk https://*.zoho.sa https://*.zohocloud.ca; report-uri https://logsapi.zoho.in/csplog?service=accounts;","pragma":"no-cache","x-frame-options":"SAMEORIGIN","vary":"accept-encoding","content-language":"en-US","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-03-28T04:43:24.522Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/5907000000005068 
+
+[debug] [2024-03-28T04:43:24.907Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Thu, 28 Mar 2024 04:43:24 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","set-cookie":["3a750b85f1=99131cfabfda186b4fe68a16fb8fedd6; Path=/","ZD_CSRF_TOKEN=1ec2dea9-f147-419d-a020-ac119abb4e9a;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=1ec2dea9-f147-419d-a020-ac119abb4e9a;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-03-28T04:43:24.908Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/5907000000005068/environment 
+
+[debug] [2024-03-28T04:43:25.083Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Thu, 28 Mar 2024 04:43:24 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","set-cookie":["3a750b85f1=7c58023b2365c117e2ff9b6feb09efa2; Path=/","ZD_CSRF_TOKEN=dec69bda-8734-4d20-870e-3cec4fcd26eb;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=dec69bda-8734-4d20-870e-3cec4fcd26eb;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-03-28T04:43:25.776Z] : Build folder already exists, starting cleanup
+[debug] [2024-03-28T04:43:25.826Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/5907000000005068/function 
+Query params: {"type":"basicio,event,cron,applogic,integration,browser_logic"}
+
+[debug] [2024-03-28T04:43:26.009Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Thu, 28 Mar 2024 04:43:25 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","set-cookie":["3a750b85f1=99131cfabfda186b4fe68a16fb8fedd6; Path=/","ZD_CSRF_TOKEN=a1cabc50-e71a-4b74-a68a-4004c4d3ec89;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=a1cabc50-e71a-4b74-a68a-4004c4d3ec89;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-03-28T04:43:26.013Z] : unknown eol undefined hence skipping check
+[warn] [2024-03-28T04:43:26.269Z] : ‼ skipping serve of AppSail service [undefined] since Config file not present
+[warn] [2024-03-28T04:43:26.269Z] : ‼ AppSail: No targets are ready to be served in local
+[info] [2024-03-28T04:43:26.507Z] : 
+[info] [2024-03-28T04:43:26.507Z] :  >>>>>>>>>>>>> AdvancedIO <<<<<<<<<<<< 
+[info] [2024-03-28T04:43:26.508Z] : i demo_function: http://localhost:3000/server/demo_function/
+[info] [2024-03-28T04:43:26.508Z] : 
+[info] [2024-03-28T04:43:26.508Z] : 
+[info] [2024-03-28T04:43:26.508Z] :  >>>>>>>>>>>>> Web Client <<<<<<<<<<<<
+[info] [2024-03-28T04:43:26.508Z] : i client[sampleApp]: http://localhost:3000/app/
+[info] [2024-03-28T04:43:26.509Z] : 
+[debug] [2024-03-28T05:20:10.003Z] : 
+[debug] [2024-03-28T05:20:10.004Z] : ----------------------------------------------------------------------
+[debug] [2024-03-28T05:20:10.004Z] : Command:      C:\Program Files\nodejs\node.exe C:\Users\user\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js serve
+[debug] [2024-03-28T05:20:10.005Z] : CLI Version:  1.17.4
+[debug] [2024-03-28T05:20:10.005Z] : Platform:     win32
+[debug] [2024-03-28T05:20:10.005Z] : Node Version: v20.10.0
+[debug] [2024-03-28T05:20:10.006Z] : Time:         Thu Mar 28 2024 10:50:10 GMT+0530 (India Standard Time)
+[debug] [2024-03-28T05:20:10.006Z] : ----------------------------------------------------------------------
+[debug] [2024-03-28T05:20:10.006Z] : 
+[debug] [2024-03-28T05:20:10.669Z] : > authorizing via signed-in user option
+[debug] [2024-03-28T05:20:10.669Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.functions.ALL","ZohoCatalyst.functions.EXECUTE","ZohoCatalyst.webapp.ALL","ZohoCatalyst.pdfshot.execute"]
+[debug] [2024-03-28T05:20:10.680Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/5907000000005068 
+
+[debug] [2024-03-28T05:20:11.014Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Thu, 28 Mar 2024 05:20:10 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","set-cookie":["3a750b85f1=99131cfabfda186b4fe68a16fb8fedd6; Path=/","ZD_CSRF_TOKEN=e8b44065-3867-44fc-af14-5d44a5d07bdf;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=e8b44065-3867-44fc-af14-5d44a5d07bdf;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-03-28T05:20:11.018Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/5907000000005068/environment 
+
+[debug] [2024-03-28T05:20:11.083Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Thu, 28 Mar 2024 05:20:10 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","set-cookie":["3a750b85f1=7c58023b2365c117e2ff9b6feb09efa2; Path=/","ZD_CSRF_TOKEN=576a5c46-50d2-40f8-b726-f706c5696ad9;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=576a5c46-50d2-40f8-b726-f706c5696ad9;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-03-28T05:20:11.278Z] : Build folder already exists, starting cleanup
+[debug] [2024-03-28T05:20:11.308Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/5907000000005068/function 
+Query params: {"type":"basicio,event,cron,applogic,integration,browser_logic"}
+
+[debug] [2024-03-28T05:20:11.371Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Thu, 28 Mar 2024 05:20:11 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","set-cookie":["3a750b85f1=99131cfabfda186b4fe68a16fb8fedd6; Path=/","ZD_CSRF_TOKEN=a2dd855c-0704-41ba-a1e2-38436644f771;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=a2dd855c-0704-41ba-a1e2-38436644f771;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-03-28T05:20:11.376Z] : unknown eol undefined hence skipping check
+[warn] [2024-03-28T05:20:11.644Z] : ‼ skipping serve of AppSail service [undefined] since Config file not present
+[warn] [2024-03-28T05:20:11.645Z] : ‼ AppSail: No targets are ready to be served in local
+[info] [2024-03-28T05:20:11.803Z] : 
+[info] [2024-03-28T05:20:11.803Z] :  >>>>>>>>>>>>> AdvancedIO <<<<<<<<<<<< 
+[info] [2024-03-28T05:20:11.805Z] : i demo_function: http://localhost:3000/server/demo_function/
+[info] [2024-03-28T05:20:11.806Z] : 
+[info] [2024-03-28T05:20:11.806Z] : 
+[info] [2024-03-28T05:20:11.807Z] :  >>>>>>>>>>>>> Web Client <<<<<<<<<<<<
+[info] [2024-03-28T05:20:11.808Z] : i client[sampleApp]: http://localhost:3000/app/
+[info] [2024-03-28T05:20:11.809Z] : 
+[debug] [2024-03-28T05:21:06.679Z] : 
+[debug] [2024-03-28T05:21:06.681Z] : ----------------------------------------------------------------------
+[debug] [2024-03-28T05:21:06.681Z] : Command:      C:\Program Files\nodejs\node.exe C:\Users\user\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js serve
+[debug] [2024-03-28T05:21:06.681Z] : CLI Version:  1.17.4
+[debug] [2024-03-28T05:21:06.682Z] : Platform:     win32
+[debug] [2024-03-28T05:21:06.682Z] : Node Version: v20.10.0
+[debug] [2024-03-28T05:21:06.682Z] : Time:         Thu Mar 28 2024 10:51:06 GMT+0530 (India Standard Time)
+[debug] [2024-03-28T05:21:06.683Z] : ----------------------------------------------------------------------
+[debug] [2024-03-28T05:21:06.683Z] : 
+[debug] [2024-03-28T05:21:07.308Z] : > authorizing via signed-in user option
+[debug] [2024-03-28T05:21:07.308Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.functions.ALL","ZohoCatalyst.functions.EXECUTE","ZohoCatalyst.webapp.ALL","ZohoCatalyst.pdfshot.execute"]
+[debug] [2024-03-28T05:21:07.323Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/5907000000005068 
+
+[debug] [2024-03-28T05:21:07.544Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Thu, 28 Mar 2024 05:21:07 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","set-cookie":["3a750b85f1=7c58023b2365c117e2ff9b6feb09efa2; Path=/","ZD_CSRF_TOKEN=9866ea71-32bc-4695-bc44-7be636624bac;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=9866ea71-32bc-4695-bc44-7be636624bac;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-03-28T05:21:07.556Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/5907000000005068/environment 
+
+[debug] [2024-03-28T05:21:07.648Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Thu, 28 Mar 2024 05:21:07 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","set-cookie":["3a750b85f1=99131cfabfda186b4fe68a16fb8fedd6; Path=/","ZD_CSRF_TOKEN=92f737a3-2caa-40b1-bfe8-63be920f1859;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=92f737a3-2caa-40b1-bfe8-63be920f1859;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-03-28T05:21:07.858Z] : Build folder already exists, starting cleanup
+[debug] [2024-03-28T05:21:07.896Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/5907000000005068/function 
+Query params: {"type":"basicio,event,cron,applogic,integration,browser_logic"}
+
+[debug] [2024-03-28T05:21:07.950Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Thu, 28 Mar 2024 05:21:07 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","set-cookie":["3a750b85f1=7c58023b2365c117e2ff9b6feb09efa2; Path=/","ZD_CSRF_TOKEN=10926e64-0212-4b1b-9b0a-fb28fde944cc;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=10926e64-0212-4b1b-9b0a-fb28fde944cc;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-03-28T05:21:07.953Z] : unknown eol undefined hence skipping check
+[warn] [2024-03-28T05:21:08.173Z] : ‼ skipping serve of AppSail service [undefined] since Config file not present
+[warn] [2024-03-28T05:21:08.174Z] : ‼ AppSail: No targets are ready to be served in local
+[info] [2024-03-28T05:21:08.332Z] : 
+[info] [2024-03-28T05:21:08.332Z] :  >>>>>>>>>>>>> AdvancedIO <<<<<<<<<<<< 
+[info] [2024-03-28T05:21:08.333Z] : i demo_function: http://localhost:3000/server/demo_function/
+[info] [2024-03-28T05:21:08.333Z] : 
+[info] [2024-03-28T05:21:08.334Z] : 
+[info] [2024-03-28T05:21:08.334Z] :  >>>>>>>>>>>>> Web Client <<<<<<<<<<<<
+[info] [2024-03-28T05:21:08.334Z] : i client[sampleApp]: http://localhost:3000/app/
+[info] [2024-03-28T05:21:08.334Z] : 

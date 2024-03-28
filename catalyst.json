@@ -1,0 +1,18 @@
+{
+  "functions": {
+    "targets": [
+      "demo_function"
+    ],
+    "ignore": [],
+    "source": "functions"
+  },
+  "client": {
+    "source": "client"
+  },
+  "appsail": [
+    {
+      "source": "C:\\Users\\user\\ZohoCatalyst_crm8\\appsail-nodejs",
+      "name": "AppSail"
+    }
+  ]
+}
