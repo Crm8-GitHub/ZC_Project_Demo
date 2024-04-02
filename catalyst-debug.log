@@ -902,3 +902,493 @@ Response Headers: {"server":"ZGS","date":"Thu, 28 Mar 2024 05:21:07 GMT","conten
 [info] [2024-03-28T05:21:08.334Z] :  >>>>>>>>>>>>> Web Client <<<<<<<<<<<<
 [info] [2024-03-28T05:21:08.334Z] : i client[sampleApp]: http://localhost:3000/app/
 [info] [2024-03-28T05:21:08.334Z] : 
+[debug] [2024-03-28T05:50:35.821Z] : > refreshing access token <
+[debug] [2024-03-28T05:50:35.825Z] : >>>> HTTP REQUEST : POST https://accounts.zoho.in/oauth/v2/token 
+<request body omitted>
+
+[debug] [2024-03-28T05:50:36.220Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Thu, 28 Mar 2024 05:50:35 GMT","content-type":"application/json;charset=UTF-8","content-length":"1913","connection":"keep-alive","set-cookie":["6e73717622=94da0c17b67b4320ada519c299270f95; Path=/","iamcsr=856eb1e2-de9f-42c8-8127-0a005e85cab2;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=856eb1e2-de9f-42c8-8127-0a005e85cab2;path=/;SameSite=Strict;Secure;priority=high"],"cache-control":"no-store","x-content-type-options":"nosniff","content-security-policy":"script-src 'self' 'unsafe-inline' 'unsafe-eval' https://*.zohocdn.com https://*.zoho.com https://*.zoho.eu https://*.zoho.com.cn https://*.zoho.com.au https://*.zoho.jp https://*.zoho.uk https://*.zoho.sa https://*.zohocloud.ca; report-uri https://logsapi.zoho.in/csplog?service=accounts;","pragma":"no-cache","x-frame-options":"SAMEORIGIN","vary":"accept-encoding","content-language":"en-US","strict-transport-security":"max-age=63072000"}
+
+[info] [2024-03-28T05:56:53.458Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2024-03-28T06:00:17.994Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-28T06:00:40.333Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-28T06:27:59.241Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2024-03-28T06:28:43.680Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2024-03-28T06:30:14.832Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2024-03-28T06:35:43.324Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2024-03-28T06:41:29.144Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2024-03-28T06:44:39.322Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-28T06:45:19.101Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-28T06:45:36.602Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2024-03-28T06:45:51.050Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-28T06:47:28.728Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-28T06:49:45.339Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-28T06:49:50.601Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-28T06:50:17.276Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-28T06:53:17.557Z] : Change(s) is detected in main.css of the Web-Client.
+[debug] [2024-03-28T06:53:17.873Z] : > refreshing access token <
+[debug] [2024-03-28T06:53:17.876Z] : >>>> HTTP REQUEST : POST https://accounts.zoho.in/oauth/v2/token 
+<request body omitted>
+
+[debug] [2024-03-28T06:53:18.129Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Thu, 28 Mar 2024 06:53:17 GMT","content-type":"application/json;charset=UTF-8","content-length":"1913","connection":"keep-alive","set-cookie":["6e73717622=4440853cd702ab2a51402c119608ee85; Path=/","iamcsr=fea6d23d-83d2-4bf8-918c-78e9557bf216;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=fea6d23d-83d2-4bf8-918c-78e9557bf216;path=/;SameSite=Strict;Secure;priority=high"],"cache-control":"no-store","x-content-type-options":"nosniff","content-security-policy":"script-src 'self' 'unsafe-inline' 'unsafe-eval' https://*.zohocdn.com https://*.zoho.com https://*.zoho.eu https://*.zoho.com.cn https://*.zoho.com.au https://*.zoho.jp https://*.zoho.uk https://*.zoho.sa https://*.zohocloud.ca; report-uri https://logsapi.zoho.in/csplog?service=accounts;","pragma":"no-cache","x-frame-options":"SAMEORIGIN","vary":"accept-encoding","content-language":"en-US","strict-transport-security":"max-age=63072000"}
+
+[info] [2024-03-28T06:53:39.288Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-28T06:54:00.224Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-28T06:54:37.582Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-28T06:55:22.643Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-28T06:55:36.835Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-28T06:55:44.188Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-28T06:55:49.816Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-28T06:56:32.199Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-28T06:56:47.310Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-28T06:57:50.160Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-28T06:58:12.320Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-28T06:58:20.677Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-28T06:58:28.609Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-28T06:58:32.848Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-28T06:58:40.993Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-28T06:59:52.988Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-28T07:00:00.599Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-28T07:00:13.536Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-28T07:00:22.197Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-28T07:00:24.768Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-28T07:00:37.818Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-28T07:00:58.192Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-28T07:01:11.353Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-28T07:01:31.671Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-28T07:01:50.679Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2024-03-28T07:02:12.628Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2024-03-28T07:02:34.758Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2024-03-28T07:03:00.012Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2024-03-28T07:03:33.922Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2024-03-28T07:03:42.870Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2024-03-28T07:04:45.234Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2024-03-28T07:05:22.794Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2024-03-28T07:06:43.488Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-28T07:07:23.383Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-28T07:07:45.059Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-28T07:08:05.832Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-28T07:08:11.931Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-28T07:08:20.888Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-28T07:08:24.441Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-28T07:08:40.963Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-28T07:09:02.164Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-28T07:09:23.162Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-28T07:09:35.601Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-28T07:09:40.362Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-28T07:09:51.309Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-28T07:14:18.757Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-28T07:14:22.636Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-28T07:14:24.836Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-28T07:14:25.061Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-28T07:14:25.241Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-28T07:14:25.324Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-28T07:14:25.441Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-28T07:14:25.600Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-28T07:14:25.684Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-28T07:14:25.785Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-28T07:14:26.054Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-28T07:14:26.229Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-28T07:14:26.329Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-28T07:14:26.471Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-28T07:14:29.092Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2024-03-28T07:14:39.858Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-28T07:15:05.171Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-28T07:15:46.785Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-28T07:16:07.144Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-28T07:16:16.961Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-28T07:16:24.384Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-28T07:16:33.354Z] : Change(s) is detected in main.css of the Web-Client.
+[debug] [2024-03-28T09:11:46.213Z] : > refreshing access token <
+[debug] [2024-03-28T09:11:46.217Z] : >>>> HTTP REQUEST : POST https://accounts.zoho.in/oauth/v2/token 
+<request body omitted>
+
+[debug] [2024-03-28T09:11:46.490Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Thu, 28 Mar 2024 09:11:46 GMT","content-type":"application/json;charset=UTF-8","content-length":"1913","connection":"keep-alive","set-cookie":["6e73717622=94da0c17b67b4320ada519c299270f95; Path=/","iamcsr=86535aec-78d6-4df9-94ba-51c160473e01;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=86535aec-78d6-4df9-94ba-51c160473e01;path=/;SameSite=Strict;Secure;priority=high"],"cache-control":"no-store","x-content-type-options":"nosniff","content-security-policy":"script-src 'self' 'unsafe-inline' 'unsafe-eval' https://*.zohocdn.com https://*.zoho.com https://*.zoho.eu https://*.zoho.com.cn https://*.zoho.com.au https://*.zoho.jp https://*.zoho.uk https://*.zoho.sa https://*.zohocloud.ca; report-uri https://logsapi.zoho.in/csplog?service=accounts;","pragma":"no-cache","x-frame-options":"SAMEORIGIN","vary":"accept-encoding","content-language":"en-US","strict-transport-security":"max-age=63072000"}
+
+[info] [2024-03-28T09:21:48.765Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2024-03-28T09:22:20.437Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-28T09:23:11.109Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-28T09:23:31.105Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-28T09:25:25.193Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-28T09:26:08.011Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-28T09:26:23.097Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-28T09:26:27.712Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-28T09:26:31.660Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-28T09:26:45.056Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-28T09:27:29.095Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-28T09:27:38.899Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-28T09:27:46.135Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-28T09:28:20.552Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-28T09:29:37.372Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2024-03-28T09:30:05.412Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-28T09:30:24.504Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-28T09:30:33.151Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-28T09:31:17.170Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-28T09:37:14.869Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-28T09:37:29.033Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-28T09:37:35.791Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-28T09:37:47.867Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-28T09:37:54.825Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-28T09:38:22.699Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-28T09:38:31.949Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-28T09:38:36.181Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-28T09:38:51.037Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-28T09:38:57.538Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-28T09:39:34.176Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-28T09:41:15.629Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-28T09:41:21.330Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-28T09:41:26.283Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-28T09:41:54.048Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-28T09:42:02.526Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-28T09:42:15.471Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-28T09:43:47.560Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-28T09:43:53.513Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-28T09:43:57.131Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-28T09:45:33.709Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-28T09:46:35.440Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-28T09:46:39.638Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2024-03-28T09:46:46.372Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-28T09:46:58.202Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-28T09:47:37.828Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-28T09:47:49.434Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-28T09:49:04.390Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-28T09:49:41.206Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-28T09:51:07.615Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2024-03-28T09:51:58.724Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-28T09:52:18.057Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-28T09:52:23.247Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-28T09:52:42.333Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-28T09:53:05.649Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-28T09:53:13.261Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-28T09:53:58.292Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2024-03-28T09:54:22.044Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-28T09:54:45.800Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2024-03-28T09:54:56.813Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2024-03-28T09:55:14.112Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-28T09:55:22.806Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-28T09:55:56.596Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2024-03-28T09:56:42.003Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-28T09:57:17.868Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2024-03-28T09:57:36.932Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-28T09:57:45.422Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-28T09:57:51.831Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-28T09:58:09.665Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2024-03-28T09:58:52.519Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-28T09:58:57.282Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-28T09:59:12.305Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-28T09:59:43.303Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2024-03-28T09:59:54.890Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-28T10:00:45.143Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-28T10:01:11.508Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-28T10:01:33.589Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-28T10:02:11.259Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-28T10:07:00.726Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-28T10:07:11.357Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-28T10:07:29.156Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-28T10:07:29.630Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-28T10:07:52.207Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-28T10:08:01.798Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-28T10:08:13.180Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-28T10:08:27.723Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-28T10:08:42.464Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-28T10:11:39.590Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-28T10:13:34.665Z] : Change(s) is detected in main.css of the Web-Client.
+[debug] [2024-03-28T10:13:35.005Z] : > refreshing access token <
+[debug] [2024-03-28T10:13:35.011Z] : >>>> HTTP REQUEST : POST https://accounts.zoho.in/oauth/v2/token 
+<request body omitted>
+
+[debug] [2024-03-28T10:13:35.243Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Thu, 28 Mar 2024 10:13:34 GMT","content-type":"application/json;charset=UTF-8","content-length":"1913","connection":"keep-alive","set-cookie":["6e73717622=4440853cd702ab2a51402c119608ee85; Path=/","iamcsr=6d49db47-536e-49db-bc85-8547fb1e35bc;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=6d49db47-536e-49db-bc85-8547fb1e35bc;path=/;SameSite=Strict;Secure;priority=high"],"cache-control":"no-store","x-content-type-options":"nosniff","content-security-policy":"script-src 'self' 'unsafe-inline' 'unsafe-eval' https://*.zohocdn.com https://*.zoho.com https://*.zoho.eu https://*.zoho.com.cn https://*.zoho.com.au https://*.zoho.jp https://*.zoho.uk https://*.zoho.sa https://*.zohocloud.ca; report-uri https://logsapi.zoho.in/csplog?service=accounts;","pragma":"no-cache","x-frame-options":"SAMEORIGIN","vary":"accept-encoding","content-language":"en-US","strict-transport-security":"max-age=63072000"}
+
+[info] [2024-03-28T10:13:48.169Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-28T10:14:04.941Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-28T10:14:16.202Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-28T10:14:23.911Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-28T10:14:48.761Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-28T10:15:18.716Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-28T10:16:12.792Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-28T10:17:28.726Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-28T10:17:44.176Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-28T10:18:01.623Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-28T10:18:12.665Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-28T10:18:27.935Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-28T10:19:04.724Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2024-03-28T10:19:12.796Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2024-03-28T10:20:42.998Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-28T10:20:53.275Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-28T10:21:26.752Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-28T10:21:54.728Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-28T10:22:45.152Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-28T10:23:49.823Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-28T10:23:56.038Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-28T10:24:06.687Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2024-03-28T10:24:13.405Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-28T10:26:27.397Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2024-03-28T10:27:17.850Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2024-03-28T10:37:47.758Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2024-03-28T10:38:39.745Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2024-03-28T10:40:10.857Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-28T10:40:27.328Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-28T10:40:50.912Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-28T10:41:44.242Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2024-03-28T10:41:48.847Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2024-03-28T10:43:43.786Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2024-03-28T10:44:30.874Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-28T10:44:36.956Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2024-03-28T10:47:03.701Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2024-03-28T10:47:24.136Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2024-03-28T10:47:50.080Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2024-03-28T10:48:06.338Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2024-03-28T10:48:15.752Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2024-03-28T10:48:29.687Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-28T10:48:43.722Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-28T10:48:49.143Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-28T10:49:00.033Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2024-03-28T10:52:43.808Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-28T10:53:32.014Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2024-03-28T10:53:44.577Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2024-03-28T10:53:49.692Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2024-03-28T10:55:21.588Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2024-03-28T10:57:30.075Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-28T10:58:04.630Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-28T10:58:36.649Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-28T10:58:55.923Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-28T10:59:56.467Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-28T11:05:44.415Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-28T11:08:03.978Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-28T11:16:49.850Z] : Change(s) is detected in main.css of the Web-Client.
+[debug] [2024-03-28T11:16:50.183Z] : > refreshing access token <
+[debug] [2024-03-28T11:16:50.186Z] : >>>> HTTP REQUEST : POST https://accounts.zoho.in/oauth/v2/token 
+<request body omitted>
+
+[debug] [2024-03-28T11:16:50.396Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Thu, 28 Mar 2024 11:16:50 GMT","content-type":"application/json;charset=UTF-8","content-length":"1913","connection":"keep-alive","set-cookie":["6e73717622=94da0c17b67b4320ada519c299270f95; Path=/","iamcsr=3855c5d9-b707-415d-a40e-6fe2d46b9e39;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=3855c5d9-b707-415d-a40e-6fe2d46b9e39;path=/;SameSite=Strict;Secure;priority=high"],"cache-control":"no-store","x-content-type-options":"nosniff","content-security-policy":"script-src 'self' 'unsafe-inline' 'unsafe-eval' https://*.zohocdn.com https://*.zoho.com https://*.zoho.eu https://*.zoho.com.cn https://*.zoho.com.au https://*.zoho.jp https://*.zoho.uk https://*.zoho.sa https://*.zohocloud.ca; report-uri https://logsapi.zoho.in/csplog?service=accounts;","pragma":"no-cache","x-frame-options":"SAMEORIGIN","vary":"accept-encoding","content-language":"en-US","strict-transport-security":"max-age=63072000"}
+
+[info] [2024-03-28T11:25:23.096Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-28T12:39:18.141Z] : Change(s) is detected in main.css of the Web-Client.
+[debug] [2024-03-28T12:39:23.880Z] : > refreshing access token <
+[debug] [2024-03-28T12:39:23.881Z] : >>>> HTTP REQUEST : POST https://accounts.zoho.in/oauth/v2/token 
+<request body omitted>
+
+[debug] [2024-03-28T12:39:24.061Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Thu, 28 Mar 2024 12:39:23 GMT","content-type":"application/json;charset=UTF-8","content-length":"1913","connection":"keep-alive","set-cookie":["6e73717622=3bcf233c3836eb7934b6f3edc257f951; Path=/","iamcsr=e668900c-2b66-4755-a2dd-5cd6407f80b9;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=e668900c-2b66-4755-a2dd-5cd6407f80b9;path=/;SameSite=Strict;Secure;priority=high"],"cache-control":"no-store","x-content-type-options":"nosniff","content-security-policy":"script-src 'self' 'unsafe-inline' 'unsafe-eval' https://*.zohocdn.com https://*.zoho.com https://*.zoho.eu https://*.zoho.com.cn https://*.zoho.com.au https://*.zoho.jp https://*.zoho.uk https://*.zoho.sa https://*.zohocloud.ca; report-uri https://logsapi.zoho.in/csplog?service=accounts;","pragma":"no-cache","x-frame-options":"SAMEORIGIN","vary":"accept-encoding","content-language":"en-US","strict-transport-security":"max-age=63072000"}
+
+[info] [2024-03-28T12:39:58.715Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-28T12:42:58.338Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-28T12:43:54.510Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-28T12:44:59.553Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-28T12:45:21.620Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-28T12:53:24.066Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-28T12:53:46.244Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-28T12:53:51.274Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-28T12:54:09.247Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-28T12:54:15.109Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-28T12:58:09.559Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-03-28T12:58:21.249Z] : Change(s) is detected in main.css of the Web-Client.
+[debug] [2024-03-30T03:29:16.548Z] : 
+[debug] [2024-03-30T03:29:16.570Z] : ----------------------------------------------------------------------
+[debug] [2024-03-30T03:29:16.571Z] : Command:      C:\Program Files\nodejs\node.exe C:\Users\user\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js serve
+[debug] [2024-03-30T03:29:16.571Z] : CLI Version:  1.17.4
+[debug] [2024-03-30T03:29:16.572Z] : Platform:     win32
+[debug] [2024-03-30T03:29:16.573Z] : Node Version: v20.10.0
+[debug] [2024-03-30T03:29:16.574Z] : Time:         Sat Mar 30 2024 08:59:16 GMT+0530 (India Standard Time)
+[debug] [2024-03-30T03:29:16.575Z] : ----------------------------------------------------------------------
+[debug] [2024-03-30T03:29:16.575Z] : 
+[debug] [2024-03-30T03:29:18.940Z] : > authorizing via signed-in user option
+[debug] [2024-03-30T03:29:18.941Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.functions.ALL","ZohoCatalyst.functions.EXECUTE","ZohoCatalyst.webapp.ALL","ZohoCatalyst.pdfshot.execute"]
+[debug] [2024-03-30T03:29:18.963Z] : > refreshing access token <
+[debug] [2024-03-30T03:29:18.964Z] : >>>> HTTP REQUEST : POST https://accounts.zoho.in/oauth/v2/token 
+<request body omitted>
+
+[debug] [2024-03-30T03:29:22.692Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Sat, 30 Mar 2024 03:29:21 GMT","content-type":"application/json;charset=UTF-8","content-length":"1913","connection":"keep-alive","set-cookie":["6e73717622=4440853cd702ab2a51402c119608ee85; Path=/","iamcsr=fe0a3d41-ebe3-4a0b-9a52-fc3230e2a335;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=fe0a3d41-ebe3-4a0b-9a52-fc3230e2a335;path=/;SameSite=Strict;Secure;priority=high"],"cache-control":"no-store","x-content-type-options":"nosniff","content-security-policy":"script-src 'self' 'unsafe-inline' 'unsafe-eval' https://*.zohocdn.com https://*.zoho.com https://*.zoho.eu https://*.zoho.com.cn https://*.zoho.com.au https://*.zoho.jp https://*.zoho.uk https://*.zoho.sa https://*.zohocloud.ca; report-uri https://logsapi.zoho.in/csplog?service=accounts;","pragma":"no-cache","x-frame-options":"SAMEORIGIN","vary":"accept-encoding","content-language":"en-US","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-03-30T03:29:22.711Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/5907000000005068 
+
+[debug] [2024-03-30T03:29:23.259Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Sat, 30 Mar 2024 03:29:22 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","set-cookie":["3a750b85f1=7c58023b2365c117e2ff9b6feb09efa2; Path=/","ZD_CSRF_TOKEN=bac1b69c-8897-4ff8-9455-9b2c132ccf55;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=bac1b69c-8897-4ff8-9455-9b2c132ccf55;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-03-30T03:29:23.265Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/5907000000005068/environment 
+
+[debug] [2024-03-30T03:29:23.465Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Sat, 30 Mar 2024 03:29:22 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","set-cookie":["3a750b85f1=99131cfabfda186b4fe68a16fb8fedd6; Path=/","ZD_CSRF_TOKEN=9c1f7d73-7b77-4a46-ac10-0142f34a9c39;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=9c1f7d73-7b77-4a46-ac10-0142f34a9c39;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-03-30T03:29:24.257Z] : Build folder already exists, starting cleanup
+[debug] [2024-03-30T03:29:24.340Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/5907000000005068/function 
+Query params: {"type":"basicio,event,cron,applogic,integration,browser_logic"}
+
+[debug] [2024-03-30T03:29:24.521Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Sat, 30 Mar 2024 03:29:23 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","set-cookie":["3a750b85f1=7c58023b2365c117e2ff9b6feb09efa2; Path=/","ZD_CSRF_TOKEN=1748c42e-1b79-4a03-b42e-9730b57205af;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=1748c42e-1b79-4a03-b42e-9730b57205af;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-03-30T03:29:24.566Z] : unknown eol undefined hence skipping check
+[warn] [2024-03-30T03:29:25.094Z] : ‼ skipping serve of AppSail service [undefined] since Config file not present
+[warn] [2024-03-30T03:29:25.094Z] : ‼ AppSail: No targets are ready to be served in local
+[info] [2024-03-30T03:29:25.400Z] : 
+[info] [2024-03-30T03:29:25.400Z] :  >>>>>>>>>>>>> AdvancedIO <<<<<<<<<<<< 
+[info] [2024-03-30T03:29:25.402Z] : i demo_function: http://localhost:3000/server/demo_function/
+[info] [2024-03-30T03:29:25.402Z] : 
+[info] [2024-03-30T03:29:25.403Z] : 
+[info] [2024-03-30T03:29:25.403Z] :  >>>>>>>>>>>>> Web Client <<<<<<<<<<<<
+[info] [2024-03-30T03:29:25.404Z] : i client[sampleApp]: http://localhost:3000/app/
+[info] [2024-03-30T03:29:25.405Z] : 
+[debug] [2024-04-01T04:35:22.489Z] : 
+[debug] [2024-04-01T04:35:22.509Z] : ----------------------------------------------------------------------
+[debug] [2024-04-01T04:35:22.509Z] : Command:      C:\Program Files\nodejs\node.exe C:\Users\user\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js serve
+[debug] [2024-04-01T04:35:22.510Z] : CLI Version:  1.17.4
+[debug] [2024-04-01T04:35:22.511Z] : Platform:     win32
+[debug] [2024-04-01T04:35:22.511Z] : Node Version: v20.10.0
+[debug] [2024-04-01T04:35:22.512Z] : Time:         Mon Apr 01 2024 10:05:22 GMT+0530 (India Standard Time)
+[debug] [2024-04-01T04:35:22.512Z] : ----------------------------------------------------------------------
+[debug] [2024-04-01T04:35:22.513Z] : 
+[debug] [2024-04-01T04:35:24.590Z] : > authorizing via signed-in user option
+[debug] [2024-04-01T04:35:24.591Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.functions.ALL","ZohoCatalyst.functions.EXECUTE","ZohoCatalyst.webapp.ALL","ZohoCatalyst.pdfshot.execute"]
+[debug] [2024-04-01T04:35:24.611Z] : > refreshing access token <
+[debug] [2024-04-01T04:35:24.612Z] : >>>> HTTP REQUEST : POST https://accounts.zoho.in/oauth/v2/token 
+<request body omitted>
+
+[debug] [2024-04-01T04:35:24.948Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Mon, 01 Apr 2024 04:35:23 GMT","content-type":"application/json;charset=UTF-8","content-length":"1913","connection":"keep-alive","set-cookie":["6e73717622=4440853cd702ab2a51402c119608ee85; Path=/","iamcsr=af1a6b7a-f28a-4e1d-b134-1cd83943c904;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=af1a6b7a-f28a-4e1d-b134-1cd83943c904;path=/;SameSite=Strict;Secure;priority=high"],"cache-control":"no-store","x-content-type-options":"nosniff","content-security-policy":"script-src 'self' 'unsafe-inline' 'unsafe-eval' https://*.zohocdn.com https://*.zoho.com https://*.zoho.eu https://*.zoho.com.cn https://*.zoho.com.au https://*.zoho.jp https://*.zoho.uk https://*.zoho.sa https://*.zohocloud.ca; report-uri https://logsapi.zoho.in/csplog?service=accounts;","pragma":"no-cache","x-frame-options":"SAMEORIGIN","vary":"accept-encoding","content-language":"en-US","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-04-01T04:35:24.956Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/5907000000005068 
+
+[debug] [2024-04-01T04:35:25.254Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Mon, 01 Apr 2024 04:35:23 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","set-cookie":["3a750b85f1=99131cfabfda186b4fe68a16fb8fedd6; Path=/","ZD_CSRF_TOKEN=491da4d1-e9b1-48f3-b0e2-78cd62c2af0a;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=491da4d1-e9b1-48f3-b0e2-78cd62c2af0a;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-04-01T04:35:25.260Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/5907000000005068/environment 
+
+[debug] [2024-04-01T04:35:25.331Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Mon, 01 Apr 2024 04:35:23 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","set-cookie":["3a750b85f1=7c58023b2365c117e2ff9b6feb09efa2; Path=/","ZD_CSRF_TOKEN=f411355a-cb97-4413-b1b9-b23e0cb56d62;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=f411355a-cb97-4413-b1b9-b23e0cb56d62;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-04-01T04:35:26.059Z] : Build folder already exists, starting cleanup
+[debug] [2024-04-01T04:35:26.105Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/5907000000005068/function 
+Query params: {"type":"basicio,event,cron,applogic,integration,browser_logic"}
+
+[debug] [2024-04-01T04:35:26.190Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Mon, 01 Apr 2024 04:35:24 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","set-cookie":["3a750b85f1=99131cfabfda186b4fe68a16fb8fedd6; Path=/","ZD_CSRF_TOKEN=2aa896a7-9775-4148-9d74-d32223a893a2;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=2aa896a7-9775-4148-9d74-d32223a893a2;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-04-01T04:35:26.200Z] : unknown eol undefined hence skipping check
+[warn] [2024-04-01T04:35:26.506Z] : ‼ skipping serve of AppSail service [undefined] since Config file not present
+[warn] [2024-04-01T04:35:26.506Z] : ‼ AppSail: No targets are ready to be served in local
+[info] [2024-04-01T04:35:26.754Z] : 
+[info] [2024-04-01T04:35:26.755Z] :  >>>>>>>>>>>>> AdvancedIO <<<<<<<<<<<< 
+[info] [2024-04-01T04:35:26.756Z] : i demo_function: http://localhost:3000/server/demo_function/
+[info] [2024-04-01T04:35:26.756Z] : 
+[info] [2024-04-01T04:35:26.757Z] : 
+[info] [2024-04-01T04:35:26.757Z] :  >>>>>>>>>>>>> Web Client <<<<<<<<<<<<
+[info] [2024-04-01T04:35:26.758Z] : i client[sampleApp]: http://localhost:3000/app/
+[info] [2024-04-01T04:35:26.758Z] : 
+[info] [2024-04-01T04:43:42.259Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2024-04-01T04:43:48.785Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2024-04-01T04:45:09.974Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2024-04-01T04:55:30.862Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-04-01T04:55:40.218Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-04-01T04:55:52.942Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-04-01T04:56:03.831Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-04-01T04:57:21.810Z] : Change(s) is detected in main.css of the Web-Client.
+[debug] [2024-04-02T07:05:52.819Z] : 
+[debug] [2024-04-02T07:05:52.832Z] : ----------------------------------------------------------------------
+[debug] [2024-04-02T07:05:52.833Z] : Command:      C:\Program Files\nodejs\node.exe C:\Users\user\AppData\Roaming\npm\node_modules\zcatalyst-cli\lib\bin\catalyst.js serve
+[debug] [2024-04-02T07:05:52.833Z] : CLI Version:  1.17.4
+[debug] [2024-04-02T07:05:52.834Z] : Platform:     win32
+[debug] [2024-04-02T07:05:52.835Z] : Node Version: v20.10.0
+[debug] [2024-04-02T07:05:52.836Z] : Time:         Tue Apr 02 2024 12:35:52 GMT+0530 (India Standard Time)
+[debug] [2024-04-02T07:05:52.836Z] : ----------------------------------------------------------------------
+[debug] [2024-04-02T07:05:52.836Z] : 
+[debug] [2024-04-02T07:05:54.671Z] : > authorizing via signed-in user option
+[debug] [2024-04-02T07:05:54.672Z] : > command requires scopes: ["ZohoCatalyst.projects.ALL","ZohoCatalyst.functions.ALL","ZohoCatalyst.functions.EXECUTE","ZohoCatalyst.webapp.ALL","ZohoCatalyst.pdfshot.execute"]
+[debug] [2024-04-02T07:05:54.692Z] : > refreshing access token <
+[debug] [2024-04-02T07:05:54.694Z] : >>>> HTTP REQUEST : POST https://accounts.zoho.in/oauth/v2/token 
+<request body omitted>
+
+[debug] [2024-04-02T07:05:55.024Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Tue, 02 Apr 2024 07:05:51 GMT","content-type":"application/json;charset=UTF-8","content-length":"1913","connection":"keep-alive","set-cookie":["6e73717622=3bcf233c3836eb7934b6f3edc257f951; Path=/","iamcsr=4d5ad3a1-5c53-42c0-926a-b1589b6db5d7;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=4d5ad3a1-5c53-42c0-926a-b1589b6db5d7;path=/;SameSite=Strict;Secure;priority=high"],"cache-control":"no-store","x-content-type-options":"nosniff","content-security-policy":"script-src 'self' 'unsafe-inline' 'unsafe-eval' https://*.zohocdn.com https://*.zoho.com https://*.zoho.eu https://*.zoho.com.cn https://*.zoho.com.au https://*.zoho.jp https://*.zoho.uk https://*.zoho.sa https://*.zohocloud.ca; report-uri https://logsapi.zoho.in/csplog?service=accounts;","pragma":"no-cache","x-frame-options":"SAMEORIGIN","vary":"accept-encoding","content-language":"en-US","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-04-02T07:05:55.063Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/5907000000005068 
+
+[debug] [2024-04-02T07:05:55.448Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Tue, 02 Apr 2024 07:05:52 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","set-cookie":["3a750b85f1=7c58023b2365c117e2ff9b6feb09efa2; Path=/","ZD_CSRF_TOKEN=194cd814-d646-4a15-bad6-217bd9d3d1ba;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=194cd814-d646-4a15-bad6-217bd9d3d1ba;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-04-02T07:05:55.453Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/5907000000005068/environment 
+
+[debug] [2024-04-02T07:05:55.571Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Tue, 02 Apr 2024 07:05:52 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","set-cookie":["3a750b85f1=99131cfabfda186b4fe68a16fb8fedd6; Path=/","ZD_CSRF_TOKEN=dd43510e-6f87-4fcb-94a4-4651846ecb6f;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=dd43510e-6f87-4fcb-94a4-4651846ecb6f;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-04-02T07:05:56.139Z] : Build folder already exists, starting cleanup
+[debug] [2024-04-02T07:05:56.187Z] : >>>> HTTP REQUEST : GET https://api.catalyst.zoho.in/baas/v1/project/5907000000005068/function 
+Query params: {"type":"basicio,event,cron,applogic,integration,browser_logic"}
+
+[debug] [2024-04-02T07:05:56.269Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Tue, 02 Apr 2024 07:05:53 GMT","content-type":"application/vnd.catalyst.v2+json","transfer-encoding":"chunked","connection":"keep-alive","set-cookie":["3a750b85f1=7c58023b2365c117e2ff9b6feb09efa2; Path=/","ZD_CSRF_TOKEN=fb012382-a55c-43a6-9e90-65e9f7212679;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=fb012382-a55c-43a6-9e90-65e9f7212679;path=/;SameSite=Strict;Secure;priority=high"],"x-content-type-options":"nosniff","x-xss-protection":"1","cache-control":"private,no-cache,no-store,max-age=0,must-revalidate","pragma":"no-cache","expires":"Thu, 01 Jan 1970 00:00:00 GMT","x-frame-options":"DENY","strict-transport-security":"max-age=63072000"}
+
+[debug] [2024-04-02T07:05:56.274Z] : unknown eol undefined hence skipping check
+[warn] [2024-04-02T07:05:56.640Z] : ‼ skipping serve of AppSail service [undefined] since Config file not present
+[warn] [2024-04-02T07:05:56.641Z] : ‼ AppSail: No targets are ready to be served in local
+[info] [2024-04-02T07:05:56.912Z] : 
+[info] [2024-04-02T07:05:56.913Z] :  >>>>>>>>>>>>> AdvancedIO <<<<<<<<<<<< 
+[info] [2024-04-02T07:05:56.914Z] : i demo_function: http://localhost:3000/server/demo_function/
+[info] [2024-04-02T07:05:56.914Z] : 
+[info] [2024-04-02T07:05:56.915Z] : 
+[info] [2024-04-02T07:05:56.915Z] :  >>>>>>>>>>>>> Web Client <<<<<<<<<<<<
+[info] [2024-04-02T07:05:56.916Z] : i client[sampleApp]: http://localhost:3000/app/
+[info] [2024-04-02T07:05:56.916Z] : 
+[info] [2024-04-02T08:01:14.897Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-04-02T08:03:17.635Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2024-04-02T08:03:35.010Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2024-04-02T09:23:05.941Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-04-02T09:23:12.386Z] : Change(s) is detected in index.html of the Web-Client.
+[debug] [2024-04-02T09:23:15.233Z] : > refreshing access token <
+[debug] [2024-04-02T09:23:15.237Z] : >>>> HTTP REQUEST : POST https://accounts.zoho.in/oauth/v2/token 
+<request body omitted>
+
+[debug] [2024-04-02T09:23:15.509Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Tue, 02 Apr 2024 09:23:12 GMT","content-type":"application/json;charset=UTF-8","content-length":"1913","connection":"keep-alive","set-cookie":["6e73717622=3bcf233c3836eb7934b6f3edc257f951; Path=/","iamcsr=9831042e-be33-47d5-a875-a88b2775f304;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=9831042e-be33-47d5-a875-a88b2775f304;path=/;SameSite=Strict;Secure;priority=high"],"cache-control":"no-store","x-content-type-options":"nosniff","content-security-policy":"script-src 'self' 'unsafe-inline' 'unsafe-eval' https://*.zohocdn.com https://*.zoho.com https://*.zoho.eu https://*.zoho.com.cn https://*.zoho.com.au https://*.zoho.jp https://*.zoho.uk https://*.zoho.sa https://*.zohocloud.ca; report-uri https://logsapi.zoho.in/csplog?service=accounts;","pragma":"no-cache","x-frame-options":"SAMEORIGIN","vary":"accept-encoding","content-language":"en-US","strict-transport-security":"max-age=63072000"}
+
+[info] [2024-04-02T09:23:47.205Z] : Change(s) is detected in index.html of the Web-Client.
+[info] [2024-04-02T09:24:50.705Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-04-02T09:29:28.689Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-04-02T09:31:11.406Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-04-02T09:40:06.378Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2024-04-02T09:40:13.231Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-04-02T09:40:34.535Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2024-04-02T09:41:18.388Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2024-04-02T09:42:14.463Z] : Change(s) is detected in main.css of the Web-Client.
+[info] [2024-04-02T09:52:17.934Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2024-04-02T09:53:52.424Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2024-04-02T09:54:28.291Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2024-04-02T09:54:47.488Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2024-04-02T10:06:16.592Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2024-04-02T10:06:29.399Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2024-04-02T10:07:56.403Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2024-04-02T10:10:25.130Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2024-04-02T10:10:25.445Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2024-04-02T10:13:42.857Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2024-04-02T10:13:56.740Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2024-04-02T10:14:15.624Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2024-04-02T10:14:34.235Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2024-04-02T10:14:54.387Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2024-04-02T10:15:11.994Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2024-04-02T10:18:18.224Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2024-04-02T10:22:22.752Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2024-04-02T10:22:35.675Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2024-04-02T10:22:55.845Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2024-04-02T10:22:56.149Z] : Change(s) is detected in main.js of the Web-Client.
+[debug] [2024-04-02T10:23:53.679Z] : > refreshing access token <
+[debug] [2024-04-02T10:23:53.680Z] : >>>> HTTP REQUEST : POST https://accounts.zoho.in/oauth/v2/token 
+<request body omitted>
+
+[debug] [2024-04-02T10:23:53.940Z] : <<<< HTTP RESPONSE : 200
+Response Headers: {"server":"ZGS","date":"Tue, 02 Apr 2024 10:23:50 GMT","content-type":"application/json;charset=UTF-8","content-length":"1913","connection":"keep-alive","set-cookie":["6e73717622=4440853cd702ab2a51402c119608ee85; Path=/","iamcsr=65bfe17e-67ca-4fe3-bedf-b3e8d46f17ef;path=/;SameSite=None;Secure;priority=high","_zcsr_tmp=65bfe17e-67ca-4fe3-bedf-b3e8d46f17ef;path=/;SameSite=Strict;Secure;priority=high"],"cache-control":"no-store","x-content-type-options":"nosniff","content-security-policy":"script-src 'self' 'unsafe-inline' 'unsafe-eval' https://*.zohocdn.com https://*.zoho.com https://*.zoho.eu https://*.zoho.com.cn https://*.zoho.com.au https://*.zoho.jp https://*.zoho.uk https://*.zoho.sa https://*.zohocloud.ca; report-uri https://logsapi.zoho.in/csplog?service=accounts;","pragma":"no-cache","x-frame-options":"SAMEORIGIN","vary":"accept-encoding","content-language":"en-US","strict-transport-security":"max-age=63072000"}
+
+[info] [2024-04-02T10:24:11.641Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2024-04-02T10:24:11.935Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2024-04-02T10:24:46.754Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2024-04-02T10:24:57.368Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2024-04-02T10:24:57.652Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2024-04-02T10:25:56.911Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2024-04-02T10:25:57.237Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2024-04-02T10:27:04.258Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2024-04-02T10:27:41.998Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2024-04-02T10:27:47.879Z] : Change(s) is detected in main.js of the Web-Client.
+[info] [2024-04-02T10:29:59.481Z] : Change(s) is detected in main.js of the Web-Client.
