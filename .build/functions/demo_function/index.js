@@ -3,21 +3,19 @@ const express = require('express');
 const catalystSDK = require('zcatalyst-sdk-node');
 const app = express();
 app.use(express.json());
-
 app.use((req, res, next) => {
     const catalyst = catalystSDK.initialize(req);
     res.locals.catalyst = catalyst;
     next();
 });
-
 app.get('/empList', async (req, res) => {
     try {
         const { catalyst } = res.locals;
         const zcql = catalyst.zcql();
-        const Employee = await zcql.executeZCQLQuery(`SELECT ROWID,Name FROM Employee_Master`);
+        const Employee = await zcql.executeZCQLQuery(`SELECT ROWID,First_Name FROM Employee_Form`);
         const formattedEmployee = Employee.map((emp) => ({
-            id: emp.Employee_Master.ROWID,
-            name: emp.Employee_Master.Name
+            id: emp.Employee_Form.ROWID,
+            name: emp.Employee_Form.First_Name
         }));
         res.status(200).send({
             status: 'success',
